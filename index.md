@@ -2,7 +2,30 @@
 layout: default
 ---
 
-Welcome to Coding Waves! 
+Welcome!
+
+We’re thrilled to have you join the coding waves Workshop! 😊 In this tutorial, we’ll guide you through the fascinating world of web technologies, revealing the different components that come together to create the web as we know it.
+This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you’ll do great.
+
+
+Introduction
+
+Have you ever felt like the world is becoming more tech-driven, but you're not quite there yet? Or maybe you've thought the world of software is just too complex to dive into on your own?
+
+Well, we’ve got some great news for you! Programming isn’t as daunting as it seems, and we’re here to show you just how fun it can be.
+
+This tutorial won’t instantly make you a programmer — but that’s okay! Becoming skilled in this field takes time, practice, and patience. What we aim to do is show you that programming and website creation aren’t as complicated as they might appear. We’ll break things down into manageable pieces so that you won’t feel overwhelmed.
+
+We hope to spark a Love for Tech in you, just like it did for us!
+
+
+What you will learn from this workshop?
+
+By the end of this workshop, you’ll have created a small, functional web application, one step at a time! 
+
+...
+
+
 
  - - - - Layout ideas below - - - -
 
