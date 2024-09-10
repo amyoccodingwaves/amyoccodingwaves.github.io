@@ -50,11 +50,40 @@ HTML (HyperText Markup Language), is the foundation of every web page. It combin
 
 * ### Understanding Tags
 Tags are the essential building blocks of HTML. By mastering HTML tags, you can create well-structured and informative web page. An element in HTML consists of a start tag, an end tag, and the content in between. These elements form the structure of web pages, representing various types of content like headings, paragraphs, links, and images.
+```
+ example here...
+```
 
-* ### The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts
+* ### head tag
+The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts.
+The <head> tag is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is not displayed.
+Metadata typically define the document title, character set, styles, scripts, and other meta information. Used for containing the link for the other files such css file and JavaScript files.
 
+```
+ <head>Head Tag</head>
+```
 
+* ### body tag
+The <body> element defines the main content of a webpage. Everything inside the <body> tag is what the user sees and interacts with in the browser. This includes text, images and links.
+```
+ <body>Body goes here</body>
+```
 
+* ### div tag
+The <div> tag is a container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
+```
+ <div class="input"></div>
+```
+ This creates a container with the class name input. The class name is used for styling purposes with CSS.
+
+* ### link tag
+Linking Files in HTML
+In HTML, linking files is crucial for connecting your webpage to various resources. You'll often link to CSS files for styling and JavaScript files for added functionality. This practice is essential for creating dynamic, interactive, and well-designed websites.
+
+Here’s how you can include the CSS and JavaScript links in an HTML code snippet:
+```
+link example...
+```
 
 Layout ideas below
 
