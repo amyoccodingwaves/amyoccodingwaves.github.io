@@ -30,10 +30,11 @@ By the end of this workshop, you’ll have created a small, functional web appli
 
 One of the first tools we will use is JSFiddle. JSFiddle is a popular, browser-based development environment where you can write, edit, and run code in HTML, CSS and Javascript. These code snippets, known as "fiddles," allow you to experiment and see the results in real-time.
 
-
+Navigate to the JSFiddle Workspace by typing in 
 ```
-Navigate to the JSFiddle Workspace by typing in  https://jsfiddle.net/ in your browser
+ https://jsfiddle.net/ 
 ```
+in your browser
 
 
 When you open JSFiddle, you will notice the workspace is divided into four sections:
