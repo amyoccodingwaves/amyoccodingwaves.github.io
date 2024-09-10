@@ -2,7 +2,13 @@
 layout: default
 ---
 
-Welcome to Coding Waves! Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome to Coding Waves! 
+
+ - - - - Layout ideas below - - - -
+
+
+Text can be **bold**, _italic_, or ~~strikethrough~~.
+
 
 [Link to another page](./another-page.html).
 
