@@ -2,13 +2,13 @@
 layout: default
 ---
 
-Welcome!
+## Welcome!
 
 We’re thrilled to have you join the coding waves Workshop! 😊 In this tutorial, we’ll guide you through the fascinating world of web technologies, revealing the different components that come together to create the web as we know it.
 This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you’ll do great.
 
 
-Introduction
+## Introduction
 
 Have you ever felt like the world is becoming more tech-driven, but you're not quite there yet? Or maybe you've thought the world of software is just too complex to dive into on your own?
 
@@ -19,11 +19,41 @@ This tutorial won’t instantly make you a programmer — but that’s okay! Bec
 We hope to spark a Love for Tech in you, just like it did for us!
 
 
-What you will learn from this workshop?
+## What you will learn from this workshop?
 
 By the end of this workshop, you’ll have created a small, functional web application, one step at a time! 
 
-............
+............IMAGE OF FINISHED APP GOES HERE.........
+
+
+## Environment Setup
+
+One of the first tools we will use is JSFiddle. JSFiddle is a popular, browser-based development environment where you can write, edit, and run code in HTML, CSS and Javascript. These code snippets, known as "fiddles," allow you to experiment and see the results in real-time.
+
+
+```
+Navigate to the JSFiddle Workspace by typing in  https://jsfiddle.net/ in your browser
+```
+
+
+When you open JSFiddle, you will notice the workspace is divided into four sections:
+*  HTML Panel: This is where you’ll write the structure of your webpage.
+*  CSS Panel: Use this panel to style your HTML elements.
+*  JavaScript Panel: Here’s where the functionality of your web application comes to life.
+*  Result Panel: This section displays the output of your code, updating as you make changes.
+
+
+## HTML 
+
+HTML (HyperText Markup Language), is the foundation of every web page. It combines Hypertext, which connects different web pages, with Markup Language, which structures text within tags to form the building blocks of a webpage. (For more information, see https://www.w3schools.com/html/) 
+
+* ### Understanding Tags
+Tags are the essential building blocks of HTML. By mastering HTML tags, you can create well-structured and informative web page. An element in HTML consists of a start tag, an end tag, and the content in between. These elements form the structure of web pages, representing various types of content like headings, paragraphs, links, and images.
+
+* ### The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts
+
+
+
 
 Layout ideas below
 
