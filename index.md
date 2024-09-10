@@ -23,11 +23,9 @@ What you will learn from this workshop?
 
 By the end of this workshop, you’ll have created a small, functional web application, one step at a time! 
 
-...
+............
 
-
-
- - - - - Layout ideas below - - - -
+Layout ideas below
 
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
