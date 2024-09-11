@@ -69,8 +69,7 @@ A HTML element is defined by a start tag, some content and an end tag
  <tagname> Element content goes here ... </tagname>
 ```
 
-
-* ### h1
+### h1
   
 ```
  <h1> ... </h1>
@@ -80,7 +79,7 @@ A HTML element is defined by a start tag, some content and an end tag
 
 h2, h3, h4, h5, h6
 
-* ### p
+### p
   
 ```
  <p> ... </p>
@@ -88,7 +87,7 @@ h2, h3, h4, h5, h6
 
 'p' for paragraphe, the <p> element defines a paragraph.
 
-* ### div
+### div
   
 ```
  <div> ... </div>
@@ -96,7 +95,7 @@ h2, h3, h4, h5, h6
 The <div> tag creats a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
 
 
-* ### title
+### title
   
 ```
  <title> ... </title>
@@ -105,7 +104,7 @@ The <div> tag creats a section or container in HTML. It groups together other el
 The <title> element is within the <head> and this text will appear in the title of your browser.
 
 
-* ### html
+### html
   
 ```
  <html> ... </html>
@@ -113,7 +112,7 @@ The <title> element is within the <head> and this text will appear in the title 
 
 The <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
 
-* ### head
+### head
   
 ```
  <head> ... </head>
@@ -121,7 +120,7 @@ The <html> is always at the beginning of html content and </html> is always at t
 
 The <head> is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
 
-* ### body
+### body
   
 ```
  <body> ... </body>
@@ -129,19 +128,19 @@ The <head> is an element that contains meta information about the document but n
 
 The <body> contains everything that is displayed on the web page, a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 
-* ### link
+### link
   
 ```
  <link> ... </link>
 ```
 
-* ### button
+### button
   
 ```
  <button> ... </button>
 ```
 
-* ### script
+### script
   
 ```
  <script> ... </script>
