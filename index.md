@@ -83,14 +83,14 @@ A HTML element is defined by a start tag, some content and an end tag
  <p> ... </p>
 ```
 
-'p' for paragraph, the <p> element defines a paragraph.
+'p' for paragraph, the p element defines a paragraph.
 
 ### div
   
 ```
  <div> ... </div>
 ```
-The <div> tag creates a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
+The div tag creates a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
 
 
 ### title
@@ -99,7 +99,7 @@ The <div> tag creates a section or container in HTML. It groups together other e
  <title> ... </title>
 ```
 
-The <title> element is within the <head> and this text will appear in the title of your browser.
+The title element is within the <head> and this text will appear in the title of your browser.
 
 
 ### html
@@ -108,7 +108,7 @@ The <title> element is within the <head> and this text will appear in the title 
  <html> ... </html>
 ```
 
-The <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
+The html is always at the beginning of html content and /html is always at the end. So, bascially the entire content of any website wil be found between these two tags.
 
 ### head
   
@@ -116,7 +116,7 @@ The <html> is always at the beginning of html content and </html> is always at t
  <head> ... </head>
 ```
 
-The <head> is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
+The head is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
 
 ### body
   
@@ -124,28 +124,28 @@ The <head> is an element that contains meta information about the document but n
  <body> ... </body>
 ```
 
-The <body> contains everything that is displayed on the web page, a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The body contains everything that is displayed on the web page, a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
 
 ### link
   
 ```
  <link> ... </link>
 ```
-The <link> tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at: https://www.w3schools.com/tags/tag_a.asp 
+The link tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at: https://www.w3schools.com/tags/tag_a.asp 
 
 ### button
   
 ```
  <button> ... </button>
 ```
-This tag defines a clickable button. https://www.w3schools.com/tags/tag_button.asp
+The button tag defines a clickable button. https://www.w3schools.com/tags/tag_button.asp
 
 ### script
   
 ```
  <script> ... </script>
 ```
-The <script> tag points to a script file, in our example the javascript file. https://www.w3schools.com/tags/tag_script.asp
+The script tag points to a script file, in our example the javascript file. https://www.w3schools.com/tags/tag_script.asp
 
 
 Notes: 
