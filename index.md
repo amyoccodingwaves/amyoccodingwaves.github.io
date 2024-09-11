@@ -57,14 +57,61 @@ When you open JSFiddle, you will notice the workspace is divided into four secti
 
 ## HTML 
 
-HTML (HyperText Markup Language), is the foundation of every web page. It combines Hypertext, which connects different web pages, with Markup Language, which structures text within tags to form the building blocks of a webpage. (For more information, see https://www.w3schools.com/html/) 
+HTML (HyperText Markup Language), is the foundation of every web page. It combines Hypertext (which connects different web pages) with Markup Language (which structures text within tags to form the building blocks of a webpage). For more information, see https://www.w3schools.com/html/ 
 
-* ### Understanding Tags
-Tags are the essential building blocks of HTML. By mastering HTML tags, you can create well-structured and informative web page. An element in HTML consists of a start tag, an end tag, and the content in between. These elements form the structure of web pages, representing various types of content like headings, paragraphs, links, and images.
+Below is an introduction to HTML elements and tags that we will use in todays workshop:
+
+* ### Elements
+A HTML element is defined by a start tag, some content and an end tag
 ```
- example here...
+ <tagname> Element content goes here ... </tagname>
 ```
 
+* ### html
+```
+ <html> ... </html>
+```
+
+* ### head
+```
+ <head> ... </head>
+```
+
+* ### body
+```
+ <body> ... </body>
+```
+
+* ### title
+```
+ <title> ... </title>
+```
+
+* ### div
+```
+ <div> ... </div>
+```
+
+* ### button
+```
+ <button> ... </button>
+```
+
+* ### h1
+```
+ <h1> ... </h1>
+```
+h2, h3, h4, h5, h6
+
+* ### body
+```
+ <p> ... </p>
+```
+
+* ### meta, link, script
+```
+ ...
+```
 * ### head tag
 The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts.
 The <head> tag is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is not displayed.
