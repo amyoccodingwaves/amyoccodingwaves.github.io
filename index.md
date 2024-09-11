@@ -90,7 +90,7 @@ A HTML element is defined by a start tag, some content and an end tag
 ```
  <div> ... </div>
 ```
-The <div> tag creats a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
+The <div> tag creates a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
 
 
 ### title
