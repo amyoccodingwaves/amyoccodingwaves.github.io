@@ -83,7 +83,7 @@ A HTML element is defined by a start tag, some content and an end tag
  <p> ... </p>
 ```
 
-'p' for paragraphe, the <p> element defines a paragraph.
+'p' for paragraph, the <p> element defines a paragraph.
 
 ### div
   
