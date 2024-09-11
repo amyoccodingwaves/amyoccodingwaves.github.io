@@ -4,7 +4,11 @@ layout: default
 
 ## Coding Workshop Guide
 
-### This guide is designed for you to follow along as we step through todays workshop. You have a hard copy where you can take notes, and code snippets are available via this webpage as we code along together.
+This guide is designed for you to follow along as we step through todays workshop. 
+
+You have a hard copy where you can take notes. Code snippets are available via this webpage as we code along together.
+
+
 
 ## Welcome!
 
