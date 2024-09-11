@@ -208,7 +208,7 @@ Note the elements we have explained above.
  <div class="container">
     
       <div class="displayWeather">
-        <h1>WHATS THE WEATHER LIKE?</h1>
+        <h2>WHATS THE WEATHER LIKE?</h2>
       </div>    
 
       <div class="input">
