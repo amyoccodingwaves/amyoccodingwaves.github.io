@@ -131,18 +131,21 @@ The <body> contains everything that is displayed on the web page, a container fo
 ```
  <link> ... </link>
 ```
+The <link> tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at https://www.w3schools.com/tags/tag_a.asp 
 
 ### button
   
 ```
  <button> ... </button>
 ```
+The <button> tag defines a clickable button. https://www.w3schools.com/tags/tag_button.asp
 
 ### script
   
 ```
  <script> ... </script>
 ```
+The <script> tag points to a script file, in our example the javascript file. https://www.w3schools.com/tags/tag_script.asp
 
 ###### Alternative layout
 
