@@ -233,7 +233,7 @@ Note the elements we have explained above.
 </html>
 ```
 
-If you wish to learn more about HTML, heck out https://www.w3schools.com/html/default.asp 
+If you wish to learn more about HTML, check out https://www.w3schools.com/html/default.asp 
 
 ## CSS
 
