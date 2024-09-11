@@ -77,8 +77,6 @@ A HTML element is defined by a start tag, some content and an end tag
 
 'h' for heading, the <h1> element defines a large heading (the <h2> element defines a slightly smaller heading, <h3> smaller again etc.).
 
-h2, h3, h4, h5, h6
-
 ### p
   
 ```
