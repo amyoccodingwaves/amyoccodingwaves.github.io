@@ -39,20 +39,20 @@ By the end of this workshop, you’ll have created a small, functional web appli
 
 ## Environment Setup
 
-One of the first tools we will use is JSFiddle. JSFiddle is a popular, browser-based development environment where you can write, edit, and run code in HTML, CSS and Javascript. These code snippets, known as "fiddles," allow you to experiment and see the results in real-time.
+One of the first tools we will use is JSFiddle. JSFiddle is a popular, browser-based development sandbox environment where you can write, edit, and run code in HTML, CSS and Javascript. These code snippets allow us to see the results in real-time.
 
-Navigate to the JSFiddle Workspace by typing in 
+Try it out! Navigate to the JSFiddle Workspace by typing 
 ```
  https://jsfiddle.net/ 
 ```
-in your browser
+in your browser.
 
 
 When you open JSFiddle, you will notice the workspace is divided into four sections:
 *  HTML Panel: This is where you’ll write the structure of your webpage.
 *  CSS Panel: Use this panel to style your HTML elements.
 *  JavaScript Panel: Here’s where the functionality of your web application comes to life.
-*  Result Panel: This section displays the output of your code, updating as you make changes.
+*  Result Panel: This section displays the output of your code. It will update as you make changes.
 
 
 ## HTML 
