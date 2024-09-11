@@ -179,7 +179,32 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
 
 ### Try it yourself
 * Play with the content of the header and run the application again.
-* Change the comments, delete a line, change the header size, play around with the code and click run to see what happens.
+* Change the comments, delete a line, change the header size, play around with the code and click Run to see what happens.
+
+### Add project HTML
+
+```html
+<html>
+
+<head>
+    <!-- LINK TO CSS-->
+    <link rel="stylesheet" href="./api.css">
+
+    <!-- LINK TO FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+    <!-- LINK TO GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <title>Coding Workshop Weather Application</title>
+</head>
+
+<body>
+```
+
 
 
 If you wish to learn more about HTML, heck out https://www.w3schools.com/html/default.asp 
