@@ -206,7 +206,7 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
  <div class="container">
     
       <div class="displayWeather">
-        <h1>CODING WAVES</h1>
+        <h1>WHATS THE WEATHER LIKE?</h1>
       </div>    
 
       <div class="input">
