@@ -126,16 +126,23 @@ h2, h3, h4, h5, h6
 
 ###### Alternative layout
 
-| html element           | <Start tag>Element content<End tag> | Example                                              |
-|:-----------------------|:------------------------------------|:-----------------------------------------------------|
-| <html> ... </html>     | <html> ... </html>                  | <html> ... </html>                                   |
+| html element           | <Start tag>Element content<End tag>               |
+|:-----------------------|:--------------------------------------------------|
+| <h1> ... </h1>         | <h1> My first heading </h1>                       | 
+| <h2> ... </h2>         | <h2> My next heading </h2>                        |
+| <p> ... </p>           | <p> This is a paragraph. Enjoy reading this. </p> |
+| <div> ... </div>       | <div> ... </div>                                  |
+| <title> ... </title>   | <title> Jane's Webpage </title>                   |
 | <head> ... </head>     | <head> ... </head>                  | <head> ... </head>                                   |
 | <body> ... </body>     | <body> ... </body>                  | <body> ... </body>                                   |
-| <title> ... </title>   | <title> ... </title>                | <title> ... </title>                                 |
-| <div> ... </div>       | <div> ... </div>                    | <div> ... </div>                                     |
-| <button> ... </button> | <button> ... </button>              | <button> Start </button>                             |
-| <h1> ... </h1>         | <h1> ... </h1>                      | <h1> My first heading </h1>                          |
-| <p> ... </p>           | <p> ... </p>                        | <p> This is a paragraph. Enjoy reading this. </p>    |
+| <button> ... </button> | <button> ... </button>                            | 
+
+Notes: 
+* <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
+* <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
+* <head> is an element that contains information about the document but note, is not displayed on the screen (the page configuration details).
+* <body> contains everything that is displayed on the web page.
+* The <title> element is within the <head> and this text will appear in the title of your browser.
 
 * ### head tag
 The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts.
