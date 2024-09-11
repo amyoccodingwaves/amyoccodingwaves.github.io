@@ -87,7 +87,7 @@ A HTML element is defined by a start tag, some content and an end tag
 
 ### div
   
-```
+```html
  <div> ... </div>
 ```
 The div tag creates a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
@@ -95,7 +95,7 @@ The div tag creates a section or container in HTML. It groups together other ele
 
 ### title
   
-```
+```html
  <title> ... </title>
 ```
 
@@ -104,7 +104,7 @@ The title element is within the <head> and this text will appear in the title of
 
 ### html
   
-```
+```html
  <html> ... </html>
 ```
 
@@ -112,7 +112,7 @@ The html is always at the beginning of html content and /html is always at the e
 
 ### head
   
-```
+```html
  <head> ... </head>
 ```
 
@@ -120,7 +120,7 @@ The head is an element that contains meta information about the document but not
 
 ### body
   
-```
+```html
  <body> ... </body>
 ```
 
@@ -128,21 +128,21 @@ The body contains everything that is displayed on the web page, a container for 
 
 ### link
   
-```
+```html
  <link> ... </link>
 ```
 The link tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at: https://www.w3schools.com/tags/tag_a.asp 
 
 ### button
   
-```
+```html
  <button> ... </button>
 ```
 The button tag defines a clickable button. https://www.w3schools.com/tags/tag_button.asp
 
 ### script
   
-```
+```html
  <script> ... </script>
 ```
 The script tag points to a script file, in our example the javascript file. https://www.w3schools.com/tags/tag_script.asp
@@ -241,10 +241,17 @@ CSS (Cascading Style Sheets) is the language used to style the appearance of web
 
 ### body
   
-The <body> element is a crucial part of your HTML document. It wraps all the visible content of the web page, such as text, images, and other elements. By applying styles to the <body>, you can set default styles that affect the entire page. For example:
+The <body> element is a crucial part of your HTML document. It wraps all the visible content of the web page, such as text, images, and other elements. By applying styles to the <body>, you can set default styles that affect the entire page. CSS is laid out a little different to HTML. 
+
+For example:
+```css
+ body{
+   font-family: 'Raleway', sans-serif;
+   background-color: #FFFF00;
+ }
 ```
- <body> ... </body>
-```
+
+Observe the curly brackets, semi-colons, more indentation and US-English when spelling 'color'. If you are keen to expand you CSS knowledge, be sure to check out https://www.w3schools.com/css/default.asp
 
 
 ## BELOW ARE TO BE DELETED ONCE TUTORIAL FINALISED - useful to styling 
