@@ -133,8 +133,6 @@ h2, h3, h4, h5, h6
 | <p> ... </p>           | <p> This is a paragraph. Enjoy reading this. </p> |
 | <div> ... </div>       | <div> ... </div>                                  |
 | <title> ... </title>   | <title> Jane's Webpage </title>                   |
-| <head> ... </head>     | <head> ... </head>                  | <head> ... </head>                                   |
-| <body> ... </body>     | <body> ... </body>                  | <body> ... </body>                                   |
 | <button> ... </button> | <button> ... </button>                            | 
 
 Notes: 
