@@ -136,7 +136,7 @@ h2, h3, h4, h5, h6
 
 Notes: 
 * <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
-* <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
+* '<html>' is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
 * <head> is an element that contains information about the document but note, is not displayed on the screen (the page configuration details).
 * <body> contains everything that is displayed on the web page.
 * The <title> element is within the <head> and this text will appear in the title of your browser.
