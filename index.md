@@ -63,55 +63,67 @@ Below is an introduction to HTML elements and tags that we will use in todays wo
 
 * ### Elements
 A HTML element is defined by a start tag, some content and an end tag
+
 ```
  <tagname> Element content goes here ... </tagname>
 ```
 
 * ### html
+  
 ```
  <html> ... </html>
 ```
 
 * ### head
+  
 ```
  <head> ... </head>
 ```
 
 * ### body
+  
 ```
  <body> ... </body>
 ```
 
 * ### title
+  
 ```
  <title> ... </title>
 ```
 
 * ### div
+  
 ```
  <div> ... </div>
 ```
 
 * ### button
+  
 ```
  <button> ... </button>
 ```
 
 * ### h1
+  
 ```
  <h1> ... </h1>
 ```
+
 h2, h3, h4, h5, h6
 
 * ### body
+  
 ```
  <p> ... </p>
 ```
 
 * ### meta, link, script
+  
 ```
  ...
 ```
+
 * ### head tag
 The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts.
 The <head> tag is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is not displayed.
