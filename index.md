@@ -147,15 +147,6 @@ This tag defines a clickable button. https://www.w3schools.com/tags/tag_button.a
 ```
 The <script> tag points to a script file, in our example the javascript file. https://www.w3schools.com/tags/tag_script.asp
 
-###### Alternative layout
-
-| html element           | <Start tag>Element content<End tag>               |
-|:-----------------------|:--------------------------------------------------|
-| <h1> ... </h1>         | <h1> My first heading </h1>                       | 
-| <h2> ... </h2>         | <h2> My next heading </h2>                        |
-| <p> ... </p>           | <p> This is a paragraph. Enjoy reading this. </p> |
-| <div> ... </div>       | <div> ... </div>                                  |
-| <title> ... </title>   | <title> Jane's Webpage </title>                   |
 
 Notes: 
 * <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
