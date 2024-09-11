@@ -65,13 +65,13 @@ Below is an introduction to HTML elements and tags that we will use in todays wo
 ## HTML elements
 A HTML element is defined by a start tag, some content and an end tag
 
-```
+```html
  <tagname> Element content goes here ... </tagname>
 ```
 
 ### h1
   
-```
+```html
  <h1> ... </h1>
 ```
 
@@ -79,7 +79,7 @@ A HTML element is defined by a start tag, some content and an end tag
 
 ### p
   
-```
+```html
  <p> ... </p>
 ```
 
@@ -233,9 +233,21 @@ Note the elements we have explained above.
 </html>
 ```
 
-
-
 If you wish to learn more about HTML, heck out https://www.w3schools.com/html/default.asp 
+
+## CSS
+
+CSS (Cascading Style Sheets) is the language used to style the appearance of web pages. While HTML is used to describe the structure and content of a web page, CSS is used to control it's visual presentation.
+
+### body
+  
+The <body> element is a crucial part of your HTML document. It wraps all the visible content of the web page, such as text, images, and other elements. By applying styles to the <body>, you can set default styles that affect the entire page. For example:
+```
+ <body> ... </body>
+```
+
+
+## BELOW ARE TO BE DELETED ONCE TUTORIAL FINALISED - useful to styling 
 
 Layout ideas below
 
