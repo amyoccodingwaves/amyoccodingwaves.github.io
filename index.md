@@ -31,12 +31,7 @@ We hope to spark a Love for Tech in you, just like it did for us!
 
 By the end of this workshop, you’ll have created a small, functional web application, one step at a time!
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-![Octocat](https://github.com/amymoccodingwaves/amyoccodingwaves.github.io/assets/SampleApp.png)
-
 ![SampleApp](https://github.com/amymoccodingwaves/amyoccodingwaves.github.io/assets/SampleApp.png)
-
-............IMAGE OF FINISHED APP GOES HERE.........
 
 
 ## Environment Setup
