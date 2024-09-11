@@ -131,7 +131,7 @@ The <body> contains everything that is displayed on the web page, a container fo
 ```
  <link> ... </link>
 ```
-The <link> tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at https://www.w3schools.com/tags/tag_a.asp 
+The <link> tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at: https://www.w3schools.com/tags/tag_a.asp 
 
 ### button
   
@@ -166,10 +166,23 @@ Notes:
 * The <link> element is used for connecting your webpage to various resources such as CSS files (for styling) and JavaScript files (for added functionality). This practice is essential for creating dynamic, interactive, and well-designed websites.
 
 
+## Let's practise some HTML
 
+In the HTML panel in JSFiddle we are going to introduce some the HTML from above. 
 
+Here's an example of basic HTML file. We invite you to recreate this in the HTML panel in your JSFiddle sandbox
 
+```html
+// HTML code to display 'Hello, World!'
+<head></head>
+<body>
+  <h1>Hello, World!</h1>
+</body>
+```
 
+..
+
+If you wish to learn more about HTML, heck out https://www.w3schools.com/html/default.asp 
 
 Layout ideas below
 
