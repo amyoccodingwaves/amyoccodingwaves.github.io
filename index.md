@@ -203,6 +203,32 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
 </head>
 
 <body>
+ <div class="container">
+    
+      <div class="displayWeather">
+        <h1>CODING WAVES</h1>
+      </div>    
+
+      <div class="input">
+         <input type="text " class="inputValue" placeholder="Enter Location">
+         <button class="button"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="displayWeather">
+         <h1 class="temp">----°C</h1>
+         <p class="humidity">---</p>
+         <p class="wind">---</p>
+         <h4 class="desc">---</h4>
+         <p class="icon">---</p>
+      </div>
+
+    </div>
+
+    <!-- LINK TO JAVASCRIPT FILE -->
+    <script src="./api.js"></script>
+</body>
+
+</html>
 ```
 
 
