@@ -124,6 +124,19 @@ h2, h3, h4, h5, h6
  ...
 ```
 
+###### Alternative layout
+
+| html element           | <Start tag>Element content<End tag> | Example                                              |
+|:-----------------------|:------------------------------------|:-----------------------------------------------------|
+| <html> ... </html>     | <html> ... </html>                  | <html> ... </html>                                   |
+| <head> ... </head>     | <head> ... </head>                  | <head> ... </head>                                   |
+| <body> ... </body>     | <body> ... </body>                  | <body> ... </body>                                   |
+| <title> ... </title>   | <title> ... </title>                | <title> ... </title>                                 |
+| <div> ... </div>       | <div> ... </div>                    | <div> ... </div>                                     |
+| <button> ... </button> | <button> ... </button>              | <button> Start </button>                             |
+| <h1> ... </h1>         | <h1> ... </h1>                      | <h1> My first heading </h1>                          |
+| <p> ... </p>           | <p> ... </p>                        | <p> This is a paragraph. Enjoy reading this. </p>    |
+
 * ### head tag
 The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts.
 The <head> tag is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is not displayed.
