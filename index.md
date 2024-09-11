@@ -171,7 +171,16 @@ Here's an example of basic HTML file. We invite you to recreate this in the HTML
 </body>
 ```
 
-..
+The first line introduces us to a comment in HTML. Comments are used in every language and this is how it looks in HTML. Note the exclamation mark at the beginning tag but not the end tag.
+
+We are using the head and body elements, and as explained above, we populate the body to display content. Within the body we add a header, h1 in this example. We add the content 'Hello, World!' to our header. Note the indentation of the header here.
+
+Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the top right hand corner of the sandbox and observe the Result Panel in the bottom right hand corner.
+
+### Try it yourself
+* Play with the content of the header and run the application again.
+* Change the comments, delete a line, change the header size, play around with the code and click run to see what happens.
+
 
 If you wish to learn more about HTML, heck out https://www.w3schools.com/html/default.asp 
 
