@@ -62,7 +62,7 @@ HTML (HyperText Markup Language), is the foundation of every web page. It combin
 Below is an introduction to HTML elements and tags that we will use in todays workshop:
 
 
-Elements
+## HTML elements
 A HTML element is defined by a start tag, some content and an end tag
 
 ```
