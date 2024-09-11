@@ -4,6 +4,8 @@ layout: default
 
 ## Welcome!
 
+### This is the Coding Workshop Guide, designed for you to follow along as we step through todays workshop.
+
 We’re thrilled to have you join the coding waves Workshop! 😊 In this tutorial, we’ll guide you through the fascinating world of web technologies, revealing the different components that come together to create the web as we know it.
 This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you’ll do great.
 
