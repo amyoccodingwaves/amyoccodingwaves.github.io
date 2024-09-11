@@ -133,7 +133,6 @@ h2, h3, h4, h5, h6
 | <p> ... </p>           | <p> This is a paragraph. Enjoy reading this. </p> |
 | <div> ... </div>       | <div> ... </div>                                  |
 | <title> ... </title>   | <title> Jane's Webpage </title>                   |
-| <button> ... </button> | <button> ... </button>                            | 
 
 Notes: 
 * <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
