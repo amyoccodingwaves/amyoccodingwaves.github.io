@@ -12,8 +12,9 @@ You have a hard copy where you can take notes. Code snippets are available via t
 
 ## Welcome!
 
-We’re thrilled to have you join the coding waves Workshop! 😊 In this tutorial, we’ll guide you through the fascinating world of web technologies, revealing the different components that come together to create the web as we know it.
-This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you’ll do great. 🌟
+We’re thrilled to have you join this Coding Waves Workshop! 😊 In this tutorial, we’ll guide you through the fascinating world of web technologies, revealing the different components that come together to create a web application.
+
+This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you will do great. 🌟
 
 
 ## Introduction
@@ -29,9 +30,11 @@ We hope to spark a Love for Tech in you, just like it did for us!
 
 ## What you will learn from this workshop?
 
-By the end of this workshop, you’ll have created a small, functional web application, one step at a time!
+By the end of this workshop, you’ll have created a small, functional web application.
 
-![SampleApp](https://github.com/amymoccodingwaves/amyoccodingwaves.github.io/assets/SampleApp.png)
+!(/assets/SampleApp.png)
+![Branching](https://guides.github.com/assets/SampleApp.png)
+![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/activities/hello-world/branching.png)
 
 
 ## Environment Setup
