@@ -68,23 +68,32 @@ A HTML element is defined by a start tag, some content and an end tag
  <tagname> Element content goes here ... </tagname>
 ```
 
-* ### html
+
+* ### h1
   
 ```
- <html> ... </html>
+ <h1> ... </h1>
 ```
 
-* ### head
+'h' for heading, the <h1> element defines a large heading (the <h2> element defines a slightly smaller heading, <h3> smaller again etc.).
+
+h2, h3, h4, h5, h6
+
+* ### p
   
 ```
- <head> ... </head>
+ <p> ... </p>
 ```
 
-* ### body
+'p' for paragraphe, the <p> element defines a paragraph.
+
+* ### div
   
 ```
- <body> ... </body>
+ <div> ... </div>
 ```
+The <div> tag creats a section or container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
+
 
 * ### title
   
@@ -92,10 +101,37 @@ A HTML element is defined by a start tag, some content and an end tag
  <title> ... </title>
 ```
 
-* ### div
+The <title> element is within the <head> and this text will appear in the title of your browser.
+
+
+* ### html
   
 ```
- <div> ... </div>
+ <html> ... </html>
+```
+
+The <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
+
+* ### head
+  
+```
+ <head> ... </head>
+```
+
+The <head> is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
+
+* ### body
+  
+```
+ <body> ... </body>
+```
+
+The <body> contains everything that is displayed on the web page, a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+
+* ### link
+  
+```
+ <link> ... </link>
 ```
 
 * ### button
@@ -104,24 +140,10 @@ A HTML element is defined by a start tag, some content and an end tag
  <button> ... </button>
 ```
 
-* ### h1
+* ### script
   
 ```
- <h1> ... </h1>
-```
-
-h2, h3, h4, h5, h6
-
-* ### body
-  
-```
- <p> ... </p>
-```
-
-* ### meta, link, script
-  
-```
- ...
+ <script> ... </script>
 ```
 
 ###### Alternative layout
@@ -137,40 +159,16 @@ h2, h3, h4, h5, h6
 Notes: 
 * <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
 * The <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
-* The <head> is an element that contains information about the document but note, is not displayed on the screen (the page configuration details).
+* The <head> is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
 * The <body> contains everything that is displayed on the web page.
 * The <title> element is within the <head> and this text will appear in the title of your browser.
+* The <link> element is used for connecting your webpage to various resources such as CSS files (for styling) and JavaScript files (for added functionality). This practice is essential for creating dynamic, interactive, and well-designed websites.
 
-* ### head tag
-The <head> tag serves as a container for metadata (information about the document itself) and is placed between the <html> and <body> tags. Metadata isn't displayed on the page. It typically includes the document title, character set, links to stylesheets (CSS) and scripts.
-The <head> tag is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is not displayed.
-Metadata typically define the document title, character set, styles, scripts, and other meta information. Used for containing the link for the other files such css file and JavaScript files.
 
-```
- <head>Head Tag</head>
-```
 
-* ### body tag
-The <body> element defines the main content of a webpage. Everything inside the <body> tag is what the user sees and interacts with in the browser. This includes text, images and links.
-```
- <body>Body goes here</body>
-```
 
-* ### div tag
-The <div> tag is a container in HTML. It groups together other elements, allowing you to apply styles and organize your page content more effectively. Think of it as a way to add structure and order to your web design.
-```
- <div class="input"></div>
-```
- This creates a container with the class name input. The class name is used for styling purposes with CSS.
 
-* ### link tag
-Linking Files in HTML
-In HTML, linking files is crucial for connecting your webpage to various resources. You'll often link to CSS files for styling and JavaScript files for added functionality. This practice is essential for creating dynamic, interactive, and well-designed websites.
 
-Here’s how you can include the CSS and JavaScript links in an HTML code snippet:
-```
-link example...
-```
 
 Layout ideas below
 
