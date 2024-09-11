@@ -253,6 +253,95 @@ For example:
 
 Observe the curly brackets, semi-colons, more indentation and US-English when spelling 'color'. If you are keen to expand you CSS knowledge, be sure to check out https://www.w3schools.com/css/default.asp
 
+### Try it yourself
+* Try another font on line 2
+* Lookup another background HEX color code from the Color Pickere here: https://htmlcolorcodes.com/
+
+
+### Before we move onto Javascript, add the following to the CSS panel on your local JSFiddle
+```css
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://media.istockphoto.com/id/1094795004/photo/blue-water-texture-from-hot-egypt.jpg?s=1024x1024&w=is&k=20&c=7Tjht1tT57X4bhW1Awpkulh62bhyLmFNEu1jTr6n3ac=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 14px;
+    background: rgb(234 234 234);
+    background: #000000d0;
+    color: white;
+}
+
+.input > input {
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 18px;
+    color: rgb(255 255 255);
+    background: #7c7c7c2b;
+    font-family: 'Raleway', sans-serif;
+}
+
+button.button {
+    border: none;
+    width: 29px;
+    padding: 6px;
+    border-radius: 20px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    transition: (.5s);
+}
+
+button.button:focus{
+    outline:none;
+}
+
+button.button:hover{
+    border: 1px solid rgb(122, 112, 112) 
+}
+
+.displayTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.displayWeather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+```
+
+
+
+
+## Let's practise some CSS
+
+Add the code snippet above to the CSS panel in JSFiddle and observe the changes in the Result Panel after clicking 'Run'.
+
+
+```
+
 
 ## BELOW ARE TO BE DELETED ONCE TUTORIAL FINALISED - useful to styling 
 
