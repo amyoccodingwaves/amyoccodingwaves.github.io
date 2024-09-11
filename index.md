@@ -173,7 +173,7 @@ In the HTML panel in JSFiddle we are going to introduce some the HTML from above
 Here's an example of basic HTML file. We invite you to recreate this in the HTML panel in your JSFiddle sandbox
 
 ```html
-// HTML code to display 'Hello, World!'
+<!-- HTML code to display 'Hello, World!' -->
 <head></head>
 <body>
   <h1>Hello, World!</h1>
