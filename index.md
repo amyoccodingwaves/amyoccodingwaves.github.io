@@ -181,7 +181,7 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
 * Play with the content of the header and run the application again.
 * Change the comments, delete a line, change the header size, play around with the code and click Run to see what happens.
 
-### Before we move onto CSS, add the following to the HTML panel on your JSFiddle
+### Before we move onto CSS, add the following to the HTML panel on your local JSFiddle
 
 Note the elements we have explained above.
 
