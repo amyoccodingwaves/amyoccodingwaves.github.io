@@ -138,7 +138,7 @@ The <link> tag that we are going to use is typically used to link external style
 ```
  <button> ... </button>
 ```
-The <button> tag defines a clickable button. https://www.w3schools.com/tags/tag_button.asp
+This tag defines a clickable button. https://www.w3schools.com/tags/tag_button.asp
 
 ### script
   
