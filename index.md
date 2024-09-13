@@ -426,17 +426,12 @@ In order to display this, we need to add the following to the HTML panel on JSFi
 ```html
 <html>
 <body>
-  <h1>
-  Javascript Variables
-  </h1>
-  <p>In this example, x, y, and z are variables</p>
-  
   <p id="demo"></p>
-  
 </body>
 </html>
 ```
-)
+For more information on HTML DOM elements see: https://www.w3schools.com/jsref/dom_obj_all.asp
+
 
 
 
