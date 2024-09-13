@@ -417,7 +417,10 @@ In the example below, we create a variable called x another called y and anothe
 var x = 4;
 var y = 8;
 var z = x + y;
+document.getElementById("demo").innerHTML = 
+"The value of z is: "+ z;
 ```
+We are using what is known as a HTML DOM element here to change the HTML content of an element with id="demo". This may sound a bit overwhelming - bascially the _'document.getElementById("demo").innerHTML'_ line is helping us output the change we are making in the javascript file. The id _'demo'_ is linking the javascript and html here.
 
 In order to display this, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
 ```html
