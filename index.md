@@ -17,6 +17,8 @@ We’re thrilled to have you join this Coding Waves Workshop! 😊 In this tutor
 This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you will do great. 🌟
 
 
+ - - - -
+
 # Introduction
 
 Have you ever felt like the world is becoming more tech-driven, but you're not quite there yet? Or maybe you've thought the world of software is just too complex to dive into on your own?
@@ -27,7 +29,8 @@ This tutorial won’t instantly make you a programmer — but that’s okay! Bec
 
 We hope to spark a Love for Tech in you, just like it did for us!
 
-
+ - - - -
+ 
 ## What you will learn from this workshop?
 
 By the end of this workshop, you’ll have created a small, functional web application. Today we will learn how to fetch data from a server up in the cloud - how cool is that!?
@@ -36,6 +39,7 @@ By the end of this workshop, you’ll have created a small, functional web appli
 ![Branching](https://guides.github.com/assets/SampleApp.png)
 ![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/activities/hello-world/branching.png)
 
+ - - - -
 
 # Environment Setup
 
@@ -54,6 +58,9 @@ When you open JSFiddle, you will notice the workspace is divided into four secti
 *  JavaScript Panel: Here’s where the functionality of your web application comes to life.
 *  Result Panel: This section displays the output of your code. It will update as you make changes.
 
+
+ - - - -
+ 
 
 # HTML 
 
@@ -269,6 +276,9 @@ Note the elements we have explained above.
 
 If you wish to learn more about HTML, check out https://www.w3schools.com/html
 
+
+ - - - -
+
 # CSS
 
 CSS (Cascading Style Sheets) is the language used to style the appearance of web pages. While HTML is used to describe the structure and content of a web page, CSS is used to control it's visual presentation.
@@ -376,6 +386,9 @@ button.button:hover{
 Add the code snippet above to the CSS panel in JSFiddle and observe the changes in the Result Panel after clicking 'Run'.
 
 So lets do this!
+
+
+ - - - -
 
 
 # JAVASCRIPT and an API
