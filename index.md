@@ -30,7 +30,7 @@ We hope to spark a Love for Tech in you, just like it did for us!
 
 ## What you will learn from this workshop?
 
-By the end of this workshop, you’ll have created a small, functional web application. Today we will learn how to fetch data from a database up in the cloud - how cool is that!?
+By the end of this workshop, you’ll have created a small, functional web application. Today we will learn how to fetch data from a server up in the cloud - how cool is that!?
 
 !(/assets/SampleApp.png)
 ![Branching](https://guides.github.com/assets/SampleApp.png)
@@ -377,6 +377,74 @@ Add the code snippet above to the CSS panel in JSFiddle and observe the changes 
 
 
 # JAVASCRIPT
+
+Bringing our focus to the top right hand panel of our JSFiddle, the Javascript file is where we will go and fetch all the Weather data. To get data from a server you need an API.
+
+Sound the trumpets 🎺🎺🎺🎺🎺 - this is the important part of our tutorial today 🥳.
+
+If there is one place to keep our attention and switch on it's here. The HTML and CSS offer us the structure and styling but the Javascript will handle all the action.
+
+Working with Javascript offers you hands on, relevant coding experience, along with getting your head around what an API is, set's you up with industry relevant experience. We hope that you leave the workshop today with a positive introduction to this.  
+
+This Weather project will introduce the fundementals of javascript and to integrating an API in your project. Let's get into it!
+
+## What is Javascript?
+
+JavaScript is a language that allows you to implement features on web pages. As mentioned above, it is where the action happens - where we create and control the content of our web page. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in our Weather app.
+
+
+## Let's learn Javascript 
+
+### var
+  
+```javascript
+ varx = 10;
+ console.log(x);
+```
+
+```js
+ varx = 10;
+ console.log(x);
+```
+
+A variable is a container for storing information.
+
+In javascript, to declare a variable, first of all, we have to write the reserved keyword var.
+
+
+Then we have to give a name to the variable. This means what variable it is, whether it is a person, or the thing, etc. 
+
+Then we have to be given an equal sign. Then, we have to write a value, which means any person can have a name, age, height, and name of any object, etc.
+
+Then, we have to give a semicolon. Remember, the name of the variable must be meaningful. JavaScript has two more reserved keywords for declaring variables: var, let and cost.
+
+var is considered the older way of defining a variable in javscript. let and const, which we will use here are the most commonly used 
+
+ - - - -
+
+
+
+JavaScript has another reserved keywords for declaring variables: let which we will be using in our project.
+
+Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared.
+
+In the example below, we create a variable called x another called y and another called z and assign them values.
+
+let x = 4;
+let y = 8;
+let z = x + y;
+
+Then we "output" the value inside an HTML paragraph with id="demo":
+
+
+![image](https://github.com/user-attachments/assets/48e49a39-f5a8-4136-b5e1-7307f58dd19a)
+
+
+
+### What the hell is an API you ask?  
+
+We will explain later. We want to remind you, that this very thing, integrating an API with a website is one of the key things developers work on each day in their jobs.  
+![image](https://github.com/user-attachments/assets/d2b54d90-52eb-4c18-9d4d-3bc80c620d0d)
 
 ```
 
