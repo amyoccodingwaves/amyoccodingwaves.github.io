@@ -30,7 +30,7 @@ We hope to spark a Love for Tech in you, just like it did for us!
 
 ## What you will learn from this workshop?
 
-By the end of this workshop, you’ll have created a small, functional web application.
+By the end of this workshop, you’ll have created a small, functional web application. Today we will learn how to fetch data from a database up in the cloud - how cool is that!?
 
 !(/assets/SampleApp.png)
 ![Branching](https://guides.github.com/assets/SampleApp.png)
@@ -180,6 +180,40 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
 ### Try it yourself
 * Play with the content of the header and run the application again.
 * Change the comments, delete a line, change the header size, play around with the code and click Run to see what happens.
+
+### Before we move onto CSS, add the following to the HTML panel on your local JSFiddle
+
+The cool HTML stuff we are going to ulilise here are a div section where we will display some data about weather, a search button (where we can search a location), and this will require a place to input the data.
+
+```html
+<html>
+
+<head>
+    <title>Coding Workshop Weather Application</title>
+</head>
+
+<body>
+ <div class="container">
+      <div class="input">
+         <input type="text " class="inputValue" placeholder="Enter Location">
+         <button class="button"><i class="fas fa-search"></i></button>
+      </div>
+
+      <div class="displayWeather">
+         <h1 class="temp">----°C</h1>
+         <p class="humidity">---</p>
+         <p class="wind">---</p>
+         <h4 class="desc">---</h4>
+         <p class="icon">---</p>
+      </div>
+
+    </div>
+</body>
+
+</html>
+```
+
+Take a moment to think about apps on your phone that have some of these elements.
 
 ### Before we move onto CSS, add the following to the HTML panel on your local JSFiddle
 
