@@ -180,8 +180,7 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
 ### Try it yourself
 * Play with the content of the header and run the application again.
 * Change the comments, delete a line, change the header size, play around with the code and click Run to see what happens.
-
-### Before we move onto CSS, add the following to the HTML panel on your local JSFiddle
+* Create a div, button and input field
 
 The cool HTML stuff we are going to ulilise here are a div section where we will display some data about weather, a search button (where we can search a location), and this will require a place to input the data.
 
@@ -217,7 +216,8 @@ Take a moment to think about apps on your phone that have some of these elements
 
 ### Before we move onto CSS, add the following to the HTML panel on your local JSFiddle
 
-Note the elements we have explained above.
+Note the elements we have explained above. 
+
 
 ```html
 <html>
