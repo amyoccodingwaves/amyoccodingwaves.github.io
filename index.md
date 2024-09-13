@@ -375,22 +375,27 @@ button.button:hover{
 
 Add the code snippet above to the CSS panel in JSFiddle and observe the changes in the Result Panel after clicking 'Run'.
 
+So lets do this!
 
-# JAVASCRIPT
 
-Bringing our focus to the bottom right hand panel of our JSFiddle, the Javascript file is where we will go and fetch all the Weather data. To get data from a server you need an API.
+# JAVASCRIPT and an API
 
-Sound the trumpets 🎺🎺🎺🎺🎺 - this is the important part of our tutorial today 🥳.
+Bringing our focus to the bottom right hand panel of our JSFiddle, our javascript will go here. 
 
-If there is one place to keep our attention and switch on it's here. The HTML and CSS offer us the structure and styling but the Javascript will handle all the action.
+Sound the trumpets 🎺🎺🎺🎺🎺 - this is the important part of our tutorial today 🥳. 
 
-Working with Javascript offers you hands on, relevant coding experience, along with getting your head around what an API is, set's you up with industry relevant experience. We hope that you leave the workshop today with a positive introduction to this.  
+This is where we will go and fetch all the Weather data. To data from a server, you need an API.
 
-This Weather project will introduce the fundementals of javascript and to integrating an API in your project. Let's get into it!
+If there is one place to keep our attention and switch on - it's here. The HTML and CSS offer us the structure and styling but the javascript will handle all the action. And the big take away from today is understanding what an API is.
+
+Working with Javascript offers you hands on, relevant coding experience, along with getting your head around what an API is.  This set's you up with industry relevant experience. We hope that you leave the workshop today with a positive introduction to what an API is.  
+
+This Weather project will introduce the fundementals of javascript and to integrating an API in your project.  So let's get into it....
+
 
 ## What is Javascript?
 
-JavaScript is a language that allows you to implement features on web pages. As mentioned above, it is where the action happens - where we create and control the content of our web page. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in our Weather app.
+JavaScript is a language that allows you to implement features on web pages. As mentioned above, it is where the action happens - where we create and control the content of our web page. This is known as responding to events (clicks, keystrokes etc.) to fetch and display data from external sources, and update content in real-time. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in our Weather app.
 
 
 ## Let's learn Javascript 
@@ -401,40 +406,35 @@ JavaScript is a language that allows you to implement features on web pages. As 
  varx = 10;
  console.log(x);
 ```
+A variable is a container for storing information. In javascript, to declare a variable, first of all, we have to write the reserved keyword var. Then we have to give a name to the variable (in this example x). Then we add an equal sign to assign a value to the variable we have just declared. In this example we are declaring the variable x and assigning 10 to it. Then, we place a semicolon to end the declartion. JavaScript has two more reserved keywords for declaring variables: var, let and cost and if you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
 
-```js
- varx = 10;
- console.log(x);
-```
-
-A variable is a container for storing information.
-
-In javascript, to declare a variable, first of all, we have to write the reserved keyword var.
-
-
-Then we have to give a name to the variable. This means what variable it is, whether it is a person, or the thing, etc. 
-
-Then we have to be given an equal sign. Then, we have to write a value, which means any person can have a name, age, height, and name of any object, etc.
-
-Then, we have to give a semicolon. Remember, the name of the variable must be meaningful. JavaScript has two more reserved keywords for declaring variables: var, let and cost.
-
-var is considered the older way of defining a variable in javscript. let and const, which we will use here are the most commonly used 
+Note: var is a reserved keyword in java is becoming outdated. When declaring a variable in javascript. let and const are also reserved keywords in javascript to declare variables, and are becoming more commonly used. For simplicity of understanding we will stick to var for this workshop.
 
  - - - -
 
-
-
-JavaScript has another reserved keywords for declaring variables: let which we will be using in our project.
-
-Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared.
-
 In the example below, we create a variable called x another called y and another called z and assign them values.
+```javascript
+var x = 4;
+var y = 8;
+var z = x + y;
+```
 
-let x = 4;
-let y = 8;
-let z = x + y;
+In order to display this, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
+```html
+<html>
+<body>
+  <h1>
+  Javascript Variables
+  </h1>
+  <p>In this example, x, y, and z are variables</p>
+  
+  <p id="demo"></p>
+  
+</body>
+</html>
+```
+)
 
-Then we "output" the value inside an HTML paragraph with id="demo":
 
 
 ![image](https://github.com/user-attachments/assets/48e49a39-f5a8-4136-b5e1-7307f58dd19a)
@@ -442,9 +442,11 @@ Then we "output" the value inside an HTML paragraph with id="demo":
 
 
 ### What the hell is an API you ask?  
+...
+API stands for Application Programming Interface. It’s a set of rules that allows different software applications to communicate with each other. Think of an API as a bridge between your application and a service or data source. In this case, we’re using an API to fetch weather data.
 
-We will explain later. We want to remind you, that this very thing, integrating an API with a website is one of the key things developers work on each day in their jobs.  
-![image](https://github.com/user-attachments/assets/d2b54d90-52eb-4c18-9d4d-3bc80c620d0d)
+An API is like a restaurant menu. It tells you what you can order (the data or services) and how to place your order (how to make requests). The weather API we’re using provides weather data based on our requests, like the current temperature or humidity for a specific city.
+
 
 ```
 
