@@ -131,7 +131,7 @@ The body contains everything that is displayed on the web page, a container for 
 ```html
  <link> ... </link>
 ```
-The link tag that we are going to use is typically used to link external style sheets. When linking in html, typically the <a> tag is used to link to an external page and you can find more information at: https://www.w3schools.com/tags/tag_a.asp 
+The link tag that we are going to use is typically used to link external style sheets. When linking in html, typically the a tag is used to link to an external page and you can find more information at: https://www.w3schools.com/tags/tag_a.asp 
 
 ### button
   
