@@ -267,11 +267,13 @@ Note the elements we have explained above.
 </html>
 ```
 
-If you wish to learn more about HTML, check out https://www.w3schools.com/html/default.asp 
+If you wish to learn more about HTML, check out https://www.w3schools.com/html
 
 ## CSS
 
 CSS (Cascading Style Sheets) is the language used to style the appearance of web pages. While HTML is used to describe the structure and content of a web page, CSS is used to control it's visual presentation.
+
+The CSS is really a place where you can make the look and feel of the app your own. Feeling eager? After the workshop play around with this file. https://www.w3schools.com/css/ offers lots of great resources to learn more about CSS. We will be only introducing this during the workshop.
 
 ### body
   
@@ -285,7 +287,7 @@ For example:
  }
 ```
 
-Observe the curly brackets, semi-colons, more indentation and US-English when spelling 'color'. If you are keen to expand you CSS knowledge, be sure to check out https://www.w3schools.com/css/default.asp
+Observe the curly brackets, semi-colons, more indentation and US-English when spelling 'color'. If you are keen to expand you CSS knowledge, be sure to check out https://www.w3schools.com/css .
 
 ### Try it yourself
 * Try another font on line 2
