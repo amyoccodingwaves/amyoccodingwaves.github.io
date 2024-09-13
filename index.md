@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Coding Workshop Guide
+# Coding Workshop Guide
 
 This guide is designed for you to follow along as we step through todays workshop. 
 
@@ -10,14 +10,14 @@ You have a hard copy where you can take notes. Code snippets are available via t
 
 
 
-## Welcome!
+# Welcome!
 
 We’re thrilled to have you join this Coding Waves Workshop! 😊 In this tutorial, we’ll guide you through the fascinating world of web technologies, revealing the different components that come together to create a web application.
 
 This journey may feel like an adventure into the unknown — but don’t worry! You’ve already taken the brave first step by being here, and we’re confident you will do great. 🌟
 
 
-## Introduction
+# Introduction
 
 Have you ever felt like the world is becoming more tech-driven, but you're not quite there yet? Or maybe you've thought the world of software is just too complex to dive into on your own?
 
@@ -37,7 +37,7 @@ By the end of this workshop, you’ll have created a small, functional web appli
 ![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/activities/hello-world/branching.png)
 
 
-## Environment Setup
+# Environment Setup
 
 One of the first tools we will use is JSFiddle. JSFiddle is a popular, browser-based development sandbox environment where you can write, edit, and run code in HTML, CSS and Javascript. These code snippets allow us to see the results in real-time.
 
@@ -55,7 +55,7 @@ When you open JSFiddle, you will notice the workspace is divided into four secti
 *  Result Panel: This section displays the output of your code. It will update as you make changes.
 
 
-## HTML 
+# HTML 
 
 HTML (HyperText Markup Language), is the foundation of every web page. It combines Hypertext (which connects different web pages) with Markup Language (which structures text within tags to form the building blocks of a webpage). For more information, see https://www.w3schools.com/html/ 
 
@@ -269,7 +269,7 @@ Note the elements we have explained above.
 
 If you wish to learn more about HTML, check out https://www.w3schools.com/html
 
-## CSS
+# CSS
 
 CSS (Cascading Style Sheets) is the language used to style the appearance of web pages. While HTML is used to describe the structure and content of a web page, CSS is used to control it's visual presentation.
 
@@ -375,6 +375,8 @@ button.button:hover{
 
 Add the code snippet above to the CSS panel in JSFiddle and observe the changes in the Result Panel after clicking 'Run'.
 
+
+# JAVASCRIPT
 
 ```
 
