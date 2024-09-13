@@ -378,7 +378,7 @@ Add the code snippet above to the CSS panel in JSFiddle and observe the changes 
 
 # JAVASCRIPT
 
-Bringing our focus to the top right hand panel of our JSFiddle, the Javascript file is where we will go and fetch all the Weather data. To get data from a server you need an API.
+Bringing our focus to the bottom right hand panel of our JSFiddle, the Javascript file is where we will go and fetch all the Weather data. To get data from a server you need an API.
 
 Sound the trumpets 🎺🎺🎺🎺🎺 - this is the important part of our tutorial today 🥳.
 
