@@ -445,18 +445,75 @@ In order to display this, we need to add the following to the HTML panel on JSFi
 ```
 For more information on HTML DOM elements see: https://www.w3schools.com/jsref/dom_obj_all.asp
 
+### document.querySelector
+
+In order to access the components we declared in our HTML file (temp, humidity, wind, and desc), so as we can manipulate them, we need to add functionality in our javascript file.  Here is what that looks like:
+```javascript
+// ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
+var button = document.querySelector('.button')
+var inputvalue = document.querySelector('.inputValue')
+var nameVal = document.querySelector('.name');
+var temp = document.querySelector('.temp');
+var humidity = document.querySelector('.humidity');
+var wind = document.querySelector('.wind');
+var desc = document.querySelector('.desc');
+var icon = document.querySelector('.icon');
+
+```
+Notice the _document.querySelector_ . This is a method in JavaScript that allows you to select a single element from the HTML _document_ using a CSS selector.
+
+(If you have time to dig a little deeper on this, tackle the 'Try it yourself' at https://www.w3schools.com/jsref/met_document_queryselector.asp ). 
 
 
+### .addEventListener
 
-![image](https://github.com/user-attachments/assets/48e49a39-f5a8-4136-b5e1-7307f58dd19a)
+In our javascript file we add a event listener. The listener listens out for an event (something) to happen.  A event listener is associated to our button.
+```javascript
 
+// ADDING EVENT LISTENER TO SEARCH BUTTON  
+button.addEventListener('click', function(){
 
+    // Fection data from open weather API
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=01d5af53849e7b901e9afd60639538b8`)
+    .then(response => response.json())
+    .then(
+        displayData)
+    .catch(err => alert('Wrong City name')); 
+
+})
+
+```
+
+If you observe the code carefully, the indentation highlights that we are creating another function, (within that function) - a fetch() method. Here we capture the API link. 
+
+### fetch
+https://www.w3schools.com/jsref/api_fetch.asp
+So, what we have created here is a button entitled _'Click'_ .  What we want our app users to do is when they enter a location and ‘Click’ on ???search they get the temperature and description and .... of that location.
+
+Notice the error message. If users enter ... Error are common in industry... etc etc.
+
+***explain the change in the API link
+
+TO DO... rename and create function display data...
+
+```javascript
+// Function to diplay weather on html document
+const displayData=(weather)=>{
+    temp.innerText=`${weather.main.temp}°C`
+    desc.innerText=`${weather.weather[0].main}`
+```
+ - - - -
 
 ### What the hell is an API you ask?  
 ...
-API stands for Application Programming Interface. It’s a set of rules that allows different software applications to communicate with each other. Think of an API as a bridge between your application and a service or data source. In this case, we’re using an API to fetch weather data.
+API stands for Application Programming Interface. It’s a set of rules that allows different software applications to communicate with each other. Think of an API as a bridge between your application and a service or data source. In this case, we’re using an API to fetch weather data. And it will be real, live data we are are going to get back - how cool is that. Check out https://openweathermap.org/api for more information.
+
+Fun fact! Part of the mission of the team who run Open Weather Map is as follows... _By keeping our data open and accessible, we empower companies to face environmental challenges while staying committed to green practices._ So this gives us an understanding of why it is free. 
 
 An API is like a restaurant menu. It tells you what you can order (the data or services) and how to place your order (how to make requests). The weather API we’re using provides weather data based on our requests, like the current temperature or humidity for a specific city.
+
+So, did you use your phone to pay for your parking today? Or check out the weather on your phone? Make a payment to your pal on Revolut? Book an Uber?  You are using APIs every day.  They are all around us and are the essense of what developers work with on a daily basis.
+
 
 
 ```
