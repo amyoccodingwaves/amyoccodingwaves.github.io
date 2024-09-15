@@ -117,7 +117,7 @@ The title element is within the <head> and this text will appear in the title of
 
 The html is always at the beginning of html content and /html is always at the end. So, bascially the entire content of any website wil be found between these two tags.
 
-### head
+### head 
   
 ```html
  <head> ... </head>
