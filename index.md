@@ -391,24 +391,22 @@ So lets do this!
  - - - -
 
 
-# JAVASCRIPT and an API
+# JAVASCRIPT
 
-Bringing our focus to the bottom right hand panel of our JSFiddle, our javascript will go here. 
+Bringing our focus to the bottom left hand panel of our JSFiddle, our javascript will go here. 
 
 Sound the trumpets 🎺🎺🎺🎺🎺 - this is the important part of our tutorial today 🥳. 
 
-This is where we will go and fetch all the Weather data. To data from a server, you need an API.
+This is where we will go and fetch all the weather data. To retrieve data from a server, you need an API.
 
-If there is one place to keep our attention and switch on - it's here. The HTML and CSS offer us the structure and styling but the javascript will handle all the action. And the big take away from today is understanding what an API is.
+If there is one place to keep our attention and switch on - it's here. The HTML and CSS gave us the structure and styling, but the javascript we are going to tackle now will handle all the action. And the big take away from today is understanding what an API is which we will discuss at the end of this workshop.
 
-Working with Javascript offers you hands on, relevant coding experience, along with getting your head around what an API is.  This set's you up with industry relevant experience. We hope that you leave the workshop today with a positive introduction to what an API is.  
-
-This Weather project will introduce the fundementals of javascript and to integrating an API in your project.  So let's get into it....
+Note: This opportunity to work with javascript offers you hands on, relevant coding experience in todays tech world. Gaining an introduction to javascript and understanding what an API are the take aways from todays workshop, especially if you are thinking of stretching further into the world of coding.
 
 
 ## What is Javascript?
 
-JavaScript is a language that allows you to implement features on web pages. As mentioned above, it is where the action happens - where we create and control the content of our web page. This is known as responding to events (clicks, keystrokes etc.) to fetch and display data from external sources, and update content in real-time. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in our Weather app.
+JavaScript is a language that allows you to implement features on web pages. Where the action happens - where we create and control the content of our web page. This is known as responding to events (clicks, keystrokes etc.) to fetch and display data from external sources, and update content in real-time. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in our weather application.
 
 
 ## Let's learn Javascript 
@@ -419,9 +417,13 @@ JavaScript is a language that allows you to implement features on web pages. As 
  varx = 10;
  console.log(x);
 ```
-A variable is a container for storing information. In javascript, to declare a variable, first of all, we have to write the reserved keyword var. Then we have to give a name to the variable (in this example x). Then we add an equal sign to assign a value to the variable we have just declared. In this example we are declaring the variable x and assigning 10 to it. Then, we place a semicolon to end the declartion. JavaScript has two more reserved keywords for declaring variables: var, let and cost and if you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
+A variable is a container for storing information. 
+* In javascript, to declare a variable, first of all, we have to write the reserved keyword var.
+* *Then we have to give a name to the variable (in this example x).
+* Then we add an equal sign to assign a value to the variable we have just declared. In this example we are declaring the variable x and assigning 10 to it.
+* Then, we place a semicolon to end the declartion.
 
-Note: var is a reserved keyword in java is becoming outdated. When declaring a variable in javascript. let and const are also reserved keywords in javascript to declare variables, and are becoming more commonly used. For simplicity of understanding we will stick to var for this workshop.
+JavaScript has two more reserved keywords for declaring variables: var, let and cost and if you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
 
  - - - -
 
@@ -433,7 +435,11 @@ var z = x + y;
 document.getElementById("demo").innerHTML = 
 "The value of z is: "+ z;
 ```
-We are using what is known as a HTML DOM element here to change the HTML content of an element with id="demo". This may sound a bit overwhelming - bascially the _'document.getElementById("demo").innerHTML'_ line is helping us output the change we are making in the javascript file. The id _'demo'_ is linking the javascript and html here.
+We are using what is known as a HTML DOM element here to change the HTML content of an element with id="demo". 
+
+This may sound a bit overwhelming - bascially the _'document.getElementById("demo").innerHTML'_ line is helping us output the change we are making in the javascript file. 
+
+The id _'demo'_ is linking the javascript and html here.
 
 In order to display this, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
 ```html
@@ -444,6 +450,7 @@ In order to display this, we need to add the following to the HTML panel on JSFi
 </html>
 ```
 For more information on HTML DOM elements see: https://www.w3schools.com/jsref/dom_obj_all.asp
+
 
 ### document.querySelector
 
@@ -467,7 +474,7 @@ Notice the _document.querySelector_ . This is a method in JavaScript that allows
 
 ### .addEventListener
 
-In our javascript file we add a event listener. The listener listens out for an event (something) to happen.  A event listener is associated to our button.
+In our javascript file we add a event listener. The listener listens out for an event (something) to happen. The event in this case is the click of a button.  A event listener is associated to our button, as per this code snippet, the addEventListener() method is attaching an event handler to the button element.
 ```javascript
 
 // ADDING EVENT LISTENER TO SEARCH BUTTON  
@@ -484,13 +491,15 @@ button.addEventListener('click', function(){
 
 ```
 
-If you observe the code carefully, the indentation highlights that we are creating another function, (within that function) - a fetch() method. Here we capture the API link. 
+If you observe the code carefully, the indentation highlights that we are creating another function, (within that function) - a fetch() method. Here we capture the API link (the point in our application where we reach out to the live data, the weather API). 
+
 
 ### fetch
-https://www.w3schools.com/jsref/api_fetch.asp
-So, what we have created here is a button entitled _'Click'_ .  What we want our app users to do is when they enter a location and ‘Click’ on ???search they get the temperature and description and .... of that location.
+To understand a fetch a little more, take a look here: https://www.w3schools.com/jsref/api_fetch.asp
+The fetch() method starts the process of fetching a resource from a server (in our application, the weather data from the Open Weather Map API.  And the fetch() method will then return whats know as a promise that resolves to a response object.  For more information on what this is all about a promise objects, asynchronous operations etc. is beyond the scope of todays workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
 
-Notice the error message. If users enter ... Error are common in industry... etc etc.
+So, what we have created here is a button. We want our users to enter a location and click the search button to get the temperature and description and .... of that location.
+
 
 ***explain the change in the API link
 
