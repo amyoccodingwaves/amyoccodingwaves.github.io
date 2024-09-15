@@ -154,6 +154,8 @@ The button tag defines a clickable button. https://www.w3schools.com/tags/tag_bu
 ```
 The script tag points to a script file, in our example the javascript file. https://www.w3schools.com/tags/tag_script.asp
 
+In our project below, this script tag will link the html file with the javascript file.
+
 
 Notes: 
 * <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
@@ -397,16 +399,15 @@ Bringing our focus to the bottom left hand panel of our JSFiddle, our javascript
 
 Sound the trumpets 🎺🎺🎺🎺🎺 - this is the important part of our tutorial today 🥳. 
 
-This is where we will go and fetch all the weather data. To retrieve data from a server, you need an API.
+This is where we will go and fetch all the weather data. In order to retrieve the weather data from a server, we need an API.
 
-If there is one place to keep our attention and switch on - it's here. The HTML and CSS gave us the structure and styling, but the javascript we are going to tackle now will handle all the action. And the big take away from today is understanding what an API is which we will discuss at the end of this workshop.
+NB: The HTML and CSS gave us the structure and styling, but the javascript we are going to tackle now will handle all the action. And the big take away from today is introducing javascript and learning what an API is.
 
-Note: This opportunity to work with javascript offers you hands on, relevant coding experience in todays tech world. Gaining an introduction to javascript and understanding what an API are the take aways from todays workshop, especially if you are thinking of stretching further into the world of coding.
-
+Note: This opportunity to work with javascript offers you hands on, relevant coding experience in todays tech world. If you are thinking of stretching further into the world of coding, gaining an introduction to javascript and understanding what an API is, are going to get on the road.
 
 ## What is Javascript?
 
-JavaScript is a language that allows you to implement features on web pages. Where the action happens - where we create and control the content of our web page. This is known as responding to events (clicks, keystrokes etc.) to fetch and display data from external sources, and update content in real-time. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in our weather application.
+JavaScript is a language that allows you to implement features on web pages. Where the action happens - where we create and control the content of our web page. This is known as responding to events (clicks, keystrokes etc.) to fetch and display data from external sources, and update content in real-time. Think about anything that moves, refreshes or changes on your screen. We will demonstrate this in this weather application.
 
 
 ## Let's learn Javascript 
@@ -418,16 +419,20 @@ JavaScript is a language that allows you to implement features on web pages. Whe
  console.log(x);
 ```
 A variable is a container for storing information. 
-* In javascript, to declare a variable, first of all, we have to write the reserved keyword var.
-* *Then we have to give a name to the variable (in this example x).
-* Then we add an equal sign to assign a value to the variable we have just declared. In this example we are declaring the variable x and assigning 10 to it.
+* In javascript, to declare a variable, first of all, we have to write the reserved keyword var .
+* Then we have to give a name to the variable (in this example x).
+* Then we add an equal sign to assign a value (in this example 10) to the variable we have just declared.
 * Then, we place a semicolon to end the declartion.
 
-JavaScript has two more reserved keywords for declaring variables: var, let and cost and if you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
+If you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
 
  - - - -
 
-In the example below, we create a variable called x another called y and another called z and assign them values.
+### document.getElementById() and document.querySelector() 
+Two of the most commonly used functions to retrieve elements from a webpage are querySelector() and getElementById()
+
+### document.getElementById()
+In the example below, we create a variable called x, another called y and a third called z, and assign them values.
 ```javascript
 var x = 4;
 var y = 8;
@@ -435,11 +440,7 @@ var z = x + y;
 document.getElementById("demo").innerHTML = 
 "The value of z is: "+ z;
 ```
-We are using what is known as a HTML DOM element here to change the HTML content of an element with id="demo". 
-
-This may sound a bit overwhelming - bascially the _'document.getElementById("demo").innerHTML'_ line is helping us output the change we are making in the javascript file. 
-
-The id _'demo'_ is linking the javascript and html here.
+We are using what is known as a HTML DOM element here to change the HTML content of an element and identify it with a unique id known as,in our example, demo (_id="demo"_). 
 
 In order to display this, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
 ```html
@@ -449,11 +450,11 @@ In order to display this, we need to add the following to the HTML panel on JSFi
 </body>
 </html>
 ```
+
 For more information on HTML DOM elements see: https://www.w3schools.com/jsref/dom_obj_all.asp
 
 
 ### document.querySelector
-
 In order to access the components we declared in our HTML file (temp, humidity, wind, and desc), so as we can manipulate them, we need to add functionality in our javascript file.  Here is what that looks like:
 ```javascript
 // ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
