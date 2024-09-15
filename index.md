@@ -504,7 +504,7 @@ const displayData=(weather)=>{
 ```
  - - - -
 
-### What the hell is an API you ask?  
+### What ia an API you ask?  
 ...
 API stands for Application Programming Interface. It’s a set of rules that allows different software applications to communicate with each other. Think of an API as a bridge between your application and a service or data source. In this case, we’re using an API to fetch weather data. And it will be real, live data we are are going to get back - how cool is that. Check out https://openweathermap.org/api for more information.
 
