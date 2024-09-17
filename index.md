@@ -403,7 +403,7 @@ This is where we will go and fetch all the weather data. In order to retrieve th
 
 NB: The HTML and CSS gave us the structure and styling, but the javascript we are going to tackle now will handle all the action. And the big take away from today is introducing javascript and learning what an API is.
 
-Note: This opportunity to work with javascript offers you hands on, relevant coding experience in todays tech world. If you are thinking of stretching further into the world of coding, gaining an introduction to javascript and understanding what an API is, are going to get on the road.
+Note: This opportunity to work with javascript offers you hands on, relevant coding experience in todays tech world. If you are thinking of stretching further into the world of coding, gaining an introduction to javascript and understanding what an API is, will be an awesome start!
 
 ## What is Javascript?
 
@@ -428,8 +428,40 @@ If you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
 
  - - - -
 
+### Differece between functions and methods
+
+Understanding the difference between functions and methods in programming in general is good thing to know. We are going to take a closer look using javascript. 
+
+### function
+
+A function is a block of code that is reusable - this block performs a particular task. They can take input arguements and return output values.
+
+A function example:
+```javascript
+function add(x, y) {
+  return x + y;
+}
+```
+Here a function takes two parameters and returns their sum.
+
+### method
+
+A method are functions that are called on objects and can change or update an object properties.
+
+A method example:
+```javascript
+let workshop = "coding";
+let workshopUpperCase = workshop.toUpperCase();
+```
+Here a method is called on a string object to convert the string (coding) to uppercase. In this example the toUpperCase() is a method of the string object (workshop) that returns an uppercase version of the string.
+
+To understand objects in javascript further, see: https://www.w3schools.com/js/js_objects.asp
+
+
 ### document.getElementById() and document.querySelector() 
-Two of the most commonly used functions to retrieve elements from a webpage are querySelector() and getElementById()
+Two of the most commonly used functions to retrieve elements from a webpage are querySelector() and getElementById().
+
+The main difference between these two functions is the way they select elements. getElementById() works with ID attributes, and querySelector() works with any CSS selector. 
 
 ### document.getElementById()
 In the example below, we create a variable called x, another called y and a third called z, and assign them values.
@@ -442,7 +474,9 @@ document.getElementById("demo").innerHTML =
 ```
 We are using what is known as a HTML DOM element here to change the HTML content of an element and identify it with a unique id known as,in our example, demo (_id="demo"_). 
 
-In order to display this, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
+The getElementById() part of document.getElementById() is a method.  This method returns an element with a specified value.  The getElementById() method returns null if the element does not exist. The getElementById() method is one of the most common methods in the HTML DOM. It is used almost every time you want to read or edit an HTML element.
+
+In order to display this value, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
 ```html
 <html>
 <body>
@@ -468,7 +502,7 @@ var desc = document.querySelector('.desc');
 var icon = document.querySelector('.icon');
 
 ```
-Notice the _document.querySelector_ . This is a method in JavaScript that allows you to select a single element from the HTML _document_ using a CSS selector.
+Notice the _document.querySelector_ . This is a method in JavaScript that allows you to select a single element from the HTML _document_ using a CSS selector (such as a class, id, or tag name). 
 
 (If you have time to dig a little deeper on this, tackle the 'Try it yourself' at https://www.w3schools.com/jsref/met_document_queryselector.asp ). 
 
@@ -497,7 +531,10 @@ If you observe the code carefully, the indentation highlights that we are creati
 
 ### fetch
 To understand a fetch a little more, take a look here: https://www.w3schools.com/jsref/api_fetch.asp
-The fetch() method starts the process of fetching a resource from a server (in our application, the weather data from the Open Weather Map API.  And the fetch() method will then return whats know as a promise that resolves to a response object.  For more information on what this is all about a promise objects, asynchronous operations etc. is beyond the scope of todays workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
+
+The fetch() method starts the process of fetching a resource from a server (in our application, the weather data from the Open Weather Map API).  And the fetch() method will then return whats known as a promise that resolves to a response object.  
+
+Understand what promise objects are all about, asynchronous operations etc. is beyond the scope of todays workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
 
 So, what we have created here is a button. We want our users to enter a location and click the search button to get the temperature and description and .... of that location.
 
