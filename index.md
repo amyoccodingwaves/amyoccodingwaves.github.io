@@ -450,8 +450,8 @@ A method are functions that are called on objects and can change or update an ob
 
 A method example:
 ```javascript
-let workshop = "coding";
-let workshopUpperCase = workshop.toUpperCase();
+var workshop = "coding";
+var workshopUpperCase = workshop.toUpperCase();
 ```
 Here a method is called on a string object to convert the string (coding) to uppercase. In this example the toUpperCase() is a method of the string object (workshop) that returns an uppercase version of the string.
 
