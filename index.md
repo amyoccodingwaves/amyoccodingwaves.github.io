@@ -115,7 +115,7 @@ The title element is within the <head> and this text will appear in the title of
  <html> ... </html>
 ```
 
-The html is always at the beginning of html content and /html is always at the end. So, bascially the entire content of any website wil be found between these two tags.
+The html is always at the beginning of html content and /html is always at the end. So, basically the entire content of any website wil be found between these two tags.
 
 ### head 
   
@@ -159,7 +159,7 @@ In our project below, this script tag will link the html file with the javascrip
 
 Notes: 
 * <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
-* The <html> is always at the beginning of html content and </html> is always at the end. So, bascially the entire content of any website wil be found between these two tags.
+* The <html> is always at the beginning of html content and </html> is always at the end. So, basically the entire content of any website will be found between these two tags.
 * The <head> is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
 * The <body> contains everything that is displayed on the web page.
 * The <title> element is within the <head> and this text will appear in the title of your browser.
@@ -191,7 +191,7 @@ Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the
 * Change the comments, delete a line, change the header size, play around with the code and click Run to see what happens.
 * Create a div, button and input field
 
-The cool HTML stuff we are going to ulilise here are a div section where we will display some data about weather, a search button (where we can search a location), and this will require a place to input the data.
+The cool HTML stuff we are going to utilise here are a div section where we will display some data about weather, a search button (where we can search a location), and this will require a place to input the data.
 
 ```html
 <html>
@@ -422,13 +422,13 @@ A variable is a container for storing information.
 * In javascript, to declare a variable, first of all, we have to write the reserved keyword var .
 * Then we have to give a name to the variable (in this example x).
 * Then we add an equal sign to assign a value (in this example 10) to the variable we have just declared.
-* Then, we place a semicolon to end the declartion.
+* Then, we place a semicolon to end the declaration.
 
 If you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
 
  - - - -
 
-### Differece between functions and methods
+### Difference between functions and methods
 
 Understanding the difference between functions and methods in programming in general is good thing to know. We are going to take a closer look using javascript. 
 
@@ -532,9 +532,9 @@ If you observe the code carefully, the indentation highlights that we are creati
 ### fetch
 To understand a fetch a little more, take a look here: https://www.w3schools.com/jsref/api_fetch.asp
 
-The fetch() method starts the process of fetching a resource from a server (in our application, the weather data from the Open Weather Map API).  And the fetch() method will then return whats known as a promise that resolves to a response object.  
+The fetch() method starts the process of fetching a resource from a server (in our application, the weather data from the Open Weather Map API).  And the fetch() method will then return what's known as a promise that resolves to a response object.  
 
-Understand what promise objects are all about, asynchronous operations etc. is beyond the scope of todays workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
+Understand what promise objects are all about, asynchronous operations etc. is beyond the scope of today's workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
 
 So, what we have created here is a button. We want our users to enter a location and click the search button to get the temperature and description and .... of that location.
 
@@ -551,7 +551,7 @@ const displayData=(weather)=>{
 ```
  - - - -
 
-### What ia an API you ask?  
+### What is an API you ask?  
 ...
 API stands for Application Programming Interface. It’s a set of rules that allows different software applications to communicate with each other. Think of an API as a bridge between your application and a service or data source. In this case, we’re using an API to fetch weather data. And it will be real, live data we are are going to get back - how cool is that. Check out https://openweathermap.org/api for more information.
 
@@ -559,7 +559,7 @@ Fun fact! Part of the mission of the team who run Open Weather Map is as follows
 
 An API is like a restaurant menu. It tells you what you can order (the data or services) and how to place your order (how to make requests). The weather API we’re using provides weather data based on our requests, like the current temperature or humidity for a specific city.
 
-So, did you use your phone to pay for your parking today? Or check out the weather on your phone? Make a payment to your pal on Revolut? Book an Uber?  You are using APIs every day.  They are all around us and are the essense of what developers work with on a daily basis.
+So, did you use your phone to pay for your parking today? Or check out the weather on your phone? Make a payment to your pal on Revolut? Book an Uber?  You are using APIs every day.  They are all around us and are the essence of what developers work with on a daily basis.
 
 
 
