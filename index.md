@@ -265,10 +265,10 @@ Note the elements we have explained above.
    </div>
 
    <div class="showWeather">
-     <h1 class="temperature">----°C</h1>
+     <h2 class="temperature">----°C</h2>
      <p class="humidity">---</p>
-     <p class="windSpeed">---</p>
-     <h4 class="description">---</h4>
+     <h3 class="windSpeed">---</h3>
+     <p class="description">---</p>
      <p class="icon">---</p>
    </div>
 
@@ -606,10 +606,10 @@ So, did you use your phone to pay for your parking today? Or check out the weath
    </div>
 
    <div class="showWeather">
-     <h1 class="temperature">----°C</h1>
+     <h2 class="temperature">----°C</h2>
      <p class="humidity">---</p>
-     <p class="windSpeed">---</p>
-     <h4 class="description">---</h4>
+     <h3 class="windSpeed">---</h3>
+     <p class="description">---</p>
      <p class="icon">---</p>
    </div>
 
