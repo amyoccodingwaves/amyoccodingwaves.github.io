@@ -621,9 +621,113 @@ So, did you use your phone to pay for your parking today? Or check out the weath
 ```
 
 ```css
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://media.istockphoto.com/id/1094795004/photo/blue-water-texture-from-hot-egypt.jpg?s=1024x1024&w=is&k=20&c=7Tjht1tT57X4bhW1Awpkulh62bhyLmFNEu1jTr6n3ac=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 14px;
+    background: rgb(234 234 234);
+    background: #000000d0;
+    color: white;
+}
+
+.input > input {
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 18px;
+    color: rgb(255 255 255);
+    background: #7c7c7c2b;
+    font-family: 'Raleway', sans-serif;
+}
+
+button.button {
+    border: none;
+    width: 29px;
+    padding: 6px;
+    border-radius: 20px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    transition: (.5s);
+}
+
+button.button:focus{
+    outline:none;
+}
+
+button.button:hover{
+    border: 1px solid rgb(122, 112, 112) 
+}
+
+.displayTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.showWeather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
 
 ```
 
 ```javascript
+// ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
+let button = document.querySelector('.button')
+let inputvalue = document.querySelector('.inputValue')
+let nameVal = document.querySelector('.name');
+let temperature = document.querySelector('.temperature');
+let humidity = document.querySelector('.humidity');
+let windSpeed = document.querySelector('.windSpeed');
+let description = document.querySelector('.description');
+let icon = document.querySelector('.icon');
+
+
+// ADDING EVENT LISTENER TO SEARCH BUTTON  
+button.addEventListener('click', function(){
+
+    // Fection data from open weather API
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=01d5af53849e7b901e9afd60639538b8`)
+    .then(response => response.json())
+    .then(showData)
+    .catch(err => alert('Incorrect location')); 
+
+})
+
+// Function to display the  weather on html document
+const showData=(weather)=>{
+    temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
+    humidity.innerText=`${weather.main.humidity}% Humidity`
+    windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
+    description.innerText=`Description: ${weather.weather[0].main}`
+    icon.innerText=`${weather.weather[0].icon}`
+ 
+   
+}
+
+    
 
 ```
