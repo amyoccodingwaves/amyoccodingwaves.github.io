@@ -269,7 +269,8 @@ Note the elements we have explained above.
      <p class="humidity">---</p>
      <h3 class="windSpeed">---</h3>
      <p class="description">---</p>
-     <p class="icon">---</p>
+     <img class="icon" />
+     
    </div>
 
  </div>
@@ -566,6 +567,7 @@ var humidity = document.querySelector('.humidity');
 var windSpeed = document.querySelector('.windSpeed');
 var description = document.querySelector('.description');
 var icon = document.querySelector('.icon');
+//var img = document.querySelector('.img');
 
 
 // ADDING EVENT LISTENER TO SEARCH BUTTON  
@@ -585,10 +587,12 @@ const showData=(weather)=>{
     humidity.innerText=`${weather.main.humidity}% Humidity`
     windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
     description.innerText=`Description: ${weather.weather[0].main}`
-    icon.innerText=`${weather.weather[0].icon}`
+    icon.src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`
  
    
 }
+
+    
 
 ```
  - - - -
@@ -647,7 +651,8 @@ So, did you use your phone to pay for your parking today? Or check out the weath
      <p class="humidity">---</p>
      <h3 class="windSpeed">---</h3>
      <p class="description">---</p>
-     <p class="icon">---</p>
+     <img class="icon" />
+     
    </div>
 
  </div>
@@ -741,6 +746,7 @@ var humidity = document.querySelector('.humidity');
 var windSpeed = document.querySelector('.windSpeed');
 var description = document.querySelector('.description');
 var icon = document.querySelector('.icon');
+//var img = document.querySelector('.img');
 
 
 // ADDING EVENT LISTENER TO SEARCH BUTTON  
@@ -760,9 +766,10 @@ const showData=(weather)=>{
     humidity.innerText=`${weather.main.humidity}% Humidity`
     windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
     description.innerText=`Description: ${weather.weather[0].main}`
-    icon.innerText=`${weather.weather[0].icon}`
+    icon.src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`
  
    
 }
 
+    
 ```
