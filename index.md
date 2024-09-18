@@ -554,6 +554,43 @@ const displayData=(weather)=>{
     temp.innerText=`${weather.main.temp}°C`
     desc.innerText=`${weather.weather[0].main}`
 ```
+
+To finalise the javascript piece of the project...
+```javascript
+// ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
+var button = document.querySelector('.button')
+var inputvalue = document.querySelector('.inputValue')
+var nameVal = document.querySelector('.name');
+var temperature = document.querySelector('.temperature');
+var humidity = document.querySelector('.humidity');
+var windSpeed = document.querySelector('.windSpeed');
+var description = document.querySelector('.description');
+var icon = document.querySelector('.icon');
+
+
+// ADDING EVENT LISTENER TO SEARCH BUTTON  
+button.addEventListener('click', function(){
+
+    // Fection data from open weather API
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=01d5af53849e7b901e9afd60639538b8`)
+    .then(response => response.json())
+    .then(showData)
+    .catch(err => alert('Incorrect location')); 
+
+})
+
+// Function to display the  weather on html document
+const showData=(weather)=>{
+    temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
+    humidity.innerText=`${weather.main.humidity}% Humidity`
+    windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
+    description.innerText=`Description: ${weather.weather[0].main}`
+    icon.innerText=`${weather.weather[0].icon}`
+ 
+   
+}
+
+```
  - - - -
 
 ### What is an API you ask?  
@@ -696,14 +733,14 @@ button.button:hover{
 
 ```javascript
 // ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
-let button = document.querySelector('.button')
-let inputvalue = document.querySelector('.inputValue')
-let nameVal = document.querySelector('.name');
-let temperature = document.querySelector('.temperature');
-let humidity = document.querySelector('.humidity');
-let windSpeed = document.querySelector('.windSpeed');
-let description = document.querySelector('.description');
-let icon = document.querySelector('.icon');
+var button = document.querySelector('.button')
+var inputvalue = document.querySelector('.inputValue')
+var nameVal = document.querySelector('.name');
+var temperature = document.querySelector('.temperature');
+var humidity = document.querySelector('.humidity');
+var windSpeed = document.querySelector('.windSpeed');
+var description = document.querySelector('.description');
+var icon = document.querySelector('.icon');
 
 
 // ADDING EVENT LISTENER TO SEARCH BUTTON  
@@ -727,7 +764,5 @@ const showData=(weather)=>{
  
    
 }
-
-    
 
 ```
