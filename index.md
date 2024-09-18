@@ -567,5 +567,55 @@ An API is like a restaurant menu. It tells you what you can order (the data or s
 So, did you use your phone to pay for your parking today? Or check out the weather on your phone? Make a payment to your pal on Revolut? Book an Uber?  You are using APIs every day.  They are all around us and are the essence of what developers work with on a daily basis.
 
 
+### Project files
 
+```html
+<html>
+
+<head>
+  <!-- LINK TO CSS-->
+  <link rel="stylesheet" href="./api.css">
+
+  <!-- LINK TO FONT AWESOME IN ORDER TO DISPLAY SEARCH ICON-->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+
+  <!-- LINK TO GOOGLE FONTS, FONT BRICOLAGE GROTESQUE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+
+  <title>Coding Workshop Weather Application</title>
+</head>
+
+<body>
+ <!-- LINK TO JAVASCRIPT FILE -->
+ <script src="./api.js"></script>
+
+ <div class="container">
+    
+   <div class="showWeather">
+     <h2>WHATS THE WEATHER LIKE?</h2>
+   </div>    
+
+   <div class="input">
+     <input type="text " class="inputValue" placeholder="Enter the Location">
+     <button class="button"><i class="fas fa-search"></i></button>
+   </div>
+
+   <div class="showWeather">
+     <h1 class="temperature">----°C</h1>
+     <p class="humidity">---</p>
+     <p class="windSpeed">---</p>
+     <h4 class="description">---</h4>
+     <p class="icon">---</p>
+   </div>
+
+ </div>
+ 
+</body>
+
+</html>
 ```
