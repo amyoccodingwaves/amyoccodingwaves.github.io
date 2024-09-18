@@ -232,51 +232,56 @@ Note the elements we have explained above.
 <html>
 
 <head>
-    <!-- LINK TO CSS-->
-    <link rel="stylesheet" href="./api.css">
+  <!-- LINK TO CSS-->
+  <link rel="stylesheet" href="./api.css">
 
-    <!-- LINK TO FONT AWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+  <!-- LINK TO FONT AWESOME IN ORDER TO DISPLAY SEARCH ICON-->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
         integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
         crossorigin="anonymous" />
 
-    <!-- LINK TO GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <!-- LINK TO GOOGLE FONTS, FONT BRICOLAGE GROTESQUE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
 
-    <title>Coding Workshop Weather Application</title>
+  <title>Coding Workshop Weather Application</title>
 </head>
 
 <body>
+ <!-- LINK TO JAVASCRIPT FILE -->
+ <script src="./api.js"></script>
+
  <div class="container">
     
-      <div class="displayWeather">
-        <h2>WHATS THE WEATHER LIKE?</h2>
-      </div>    
+   <div class="showWeather">
+     <h2>WHATS THE WEATHER LIKE?</h2>
+   </div>    
 
-      <div class="input">
-         <input type="text " class="inputValue" placeholder="Enter Location">
-         <button class="button"><i class="fas fa-search"></i></button>
-      </div>
+   <div class="input">
+     <input type="text " class="inputValue" placeholder="Enter the Location">
+     <button class="button"><i class="fas fa-search"></i></button>
+   </div>
 
-      <div class="displayWeather">
-         <h1 class="temp">----°C</h1>
-         <p class="humidity">---</p>
-         <p class="wind">---</p>
-         <h4 class="desc">---</h4>
-         <p class="icon">---</p>
-      </div>
+   <div class="showWeather">
+     <h1 class="temperature">----°C</h1>
+     <p class="humidity">---</p>
+     <p class="windSpeed">---</p>
+     <h4 class="description">---</h4>
+     <p class="icon">---</p>
+   </div>
 
-    </div>
-
-    <!-- LINK TO JAVASCRIPT FILE -->
-    <script src="./api.js"></script>
+ </div>
+ 
 </body>
 
 </html>
 ```
 
 If you wish to learn more about HTML, check out https://www.w3schools.com/html
+
+The link to the Google Fonts we worked with is here: https://fonts.google.com/selection/embed and to learn more about how to work with this Google Fonts API, check out: https://developers.google.com/fonts/docs/css2
 
 
  - - - -
