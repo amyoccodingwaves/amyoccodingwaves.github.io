@@ -34,13 +34,6 @@ We hope to spark a Love for Tech in you, just like it did for us!
 ## What you will learn from this workshop?
 
 By the end of this workshop, you’ll have created a small, functional web application. Today we will learn how to fetch data from a server up in the cloud - how cool is that!?
-
-!(/assets/Slide1.png)
-![Branching](https://guides.github.com/assets/Slide1.png)
-![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/assets/Slide1.png)
-![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.com/assets/Slide1.png)
-![Branching](https://github.com/amyoccodingwaves.github.com/assets/Slide1.png)
-![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/activities/hello-world/branching.png)
 ![image](/assets/Slide1.png)
 
  - - - -
