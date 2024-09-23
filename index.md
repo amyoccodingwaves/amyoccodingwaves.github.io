@@ -34,6 +34,7 @@ We hope to spark a Love for Tech in you, just like it did for us!
 ## What you will learn from this workshop?
 
 By the end of this workshop, you’ll have created a small, functional web application. Today we will learn how to fetch data from a server up in the cloud - how cool is that!?
+
 ![image](/assets/Slide1.png)
 
  - - - -
