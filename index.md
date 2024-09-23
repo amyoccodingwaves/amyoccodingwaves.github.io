@@ -320,7 +320,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('https://media.istockphoto.com/id/1094795004/photo/blue-water-texture-from-hot-egypt.jpg?s=1024x1024&w=is&k=20&c=7Tjht1tT57X4bhW1Awpkulh62bhyLmFNEu1jTr6n3ac=');
+    background-image: url('https://plus.unsplash.com/premium_photo-1680339680481-edd39aa0a521?q=80&w=3328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -331,10 +331,10 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    max-width: 420px;
+    max-width: 450px;
     margin: 1em;
     padding: 2em;
-    border-radius: 14px;
+    border-radius: 24px;
     background: rgb(234 234 234);
     background: #000000d0;
     color: white;
@@ -347,7 +347,7 @@ body{
     border-radius: 18px;
     color: rgb(255 255 255);
     background: #7c7c7c2b;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
 }
 
 button.button {
@@ -357,7 +357,7 @@ button.button {
     border-radius: 20px;
     background: #7c7c7c2b;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
     transition: (.5s);
 }
 
@@ -374,15 +374,15 @@ button.button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
 }
 
-.displayWeather{
+.showWeather{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
 }
 ```
 
@@ -593,7 +593,6 @@ const showData=(weather)=>{
 }
 
     
-
 ```
  - - - -
 
@@ -669,7 +668,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('https://media.istockphoto.com/id/1094795004/photo/blue-water-texture-from-hot-egypt.jpg?s=1024x1024&w=is&k=20&c=7Tjht1tT57X4bhW1Awpkulh62bhyLmFNEu1jTr6n3ac=');
+    background-image: url('https://plus.unsplash.com/premium_photo-1680339680481-edd39aa0a521?q=80&w=3328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -680,10 +679,10 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    max-width: 420px;
+    max-width: 450px;
     margin: 1em;
     padding: 2em;
-    border-radius: 14px;
+    border-radius: 24px;
     background: rgb(234 234 234);
     background: #000000d0;
     color: white;
@@ -696,7 +695,7 @@ body{
     border-radius: 18px;
     color: rgb(255 255 255);
     background: #7c7c7c2b;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
 }
 
 button.button {
@@ -706,7 +705,7 @@ button.button {
     border-radius: 20px;
     background: #7c7c7c2b;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
     transition: (.5s);
 }
 
@@ -723,7 +722,7 @@ button.button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
 }
 
 .showWeather{
@@ -731,9 +730,8 @@ button.button:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bricolage+Grotesque', sans-serif;
 }
-
 ```
 
 ```javascript
@@ -771,5 +769,4 @@ const showData=(weather)=>{
    
 }
 
-    
 ```
