@@ -573,7 +573,7 @@ var icon = document.querySelector('.icon');
 // ADDING EVENT LISTENER TO SEARCH BUTTON  
 button.addEventListener('click', function(){
 
-    // Fection data from open weather API
+    // Fetching data from open weather API
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=01d5af53849e7b901e9afd60639538b8`)
     .then(response => response.json())
     .then(showData)
@@ -750,7 +750,7 @@ var icon = document.querySelector('.icon');
 // ADDING EVENT LISTENER TO SEARCH BUTTON  
 button.addEventListener('click', function(){
 
-    // Fection data from open weather API
+    // Fetching data from open weather API
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=01d5af53849e7b901e9afd60639538b8`)
     .then(response => response.json())
     .then(showData)
