@@ -37,9 +37,9 @@ By the end of this workshop, you’ll have created a small, functional web appli
 
 !(/assets/Slide1.png)
 ![Branching](https://guides.github.com/assets/Slide1.png)
-![Branching](https://https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/assets/Slide1.png)
-![Branching](https://https://github.com/amyoccodingwaves/amyoccodingwaves.github.com/assets/Slide1.png)
-![Branching](https://https://github.com/amyoccodingwaves.github.com/assets/Slide1.png)
+![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/assets/Slide1.png)
+![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.com/assets/Slide1.png)
+![Branching](https://github.com/amyoccodingwaves.github.com/assets/Slide1.png)
 ![Branching](https://github.com/amyoccodingwaves/amyoccodingwaves.github.io/activities/hello-world/branching.png)
 
  - - - -
