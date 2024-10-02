@@ -419,8 +419,7 @@ JavaScript is a language that allows you to implement features on web pages. Whe
 ### var
   
 ```javascript
- varx = 10;
- console.log(x);
+ var x = 4;
 ```
 A variable is a container for storing information. 
 * In javascript, to declare a variable, first of all, we have to write the reserved keyword var .
