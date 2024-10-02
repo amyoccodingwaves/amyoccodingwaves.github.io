@@ -580,15 +580,15 @@ button.addEventListener('click', function(){
 })
 
 // Function to display the  weather on html document
-const showData=(weather)=>{
+function showData(weather){
     temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
     humidity.innerText=`${weather.main.humidity}% Humidity`
     windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
     description.innerText=`Description: ${weather.weather[0].main}`
     icon.src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`
- 
-   
 }
+
+    
 
     
 ```
@@ -757,14 +757,14 @@ button.addEventListener('click', function(){
 })
 
 // Function to display the  weather on html document
-const showData=(weather)=>{
+function showData(weather){
     temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
     humidity.innerText=`${weather.main.humidity}% Humidity`
     windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
     description.innerText=`Description: ${weather.weather[0].main}`
     icon.src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`
- 
-   
 }
+
+    
 
 ```
