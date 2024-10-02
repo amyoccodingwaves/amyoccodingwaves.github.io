@@ -539,20 +539,6 @@ The fetch() method starts the process of fetching a resource from a server (in o
 
 Understand what promise objects are all about, asynchronous operations etc. is beyond the scope of today's workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
 
-So, what we have created here is a button. We want our users to enter a location and click the search button to get the temperature and description and .... of that location.
-
-
-***explain the change in the API link
-
-TO DO... rename and create function display data...
-
-```javascript
-// Function to diplay weather on html document
-const displayData=(weather)=>{
-    temp.innerText=`${weather.main.temp}°C`
-    desc.innerText=`${weather.weather[0].main}`
-```
-
 To finalise the javascript piece of the project...
 ```javascript
 // ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
@@ -604,7 +590,10 @@ An API is like a restaurant menu. It tells you what you can order (the data or s
 So, did you use your phone to pay for your parking today? Or check out the weather on your phone? Make a payment to your pal on Revolut? Book an Uber?  You are using APIs every day.  They are all around us and are the essence of what developers work with on a daily basis.
 
 
+ - - - -
+
 ### Project files
+Below are the completed project file solutions.
 
 ```html
 <html>
