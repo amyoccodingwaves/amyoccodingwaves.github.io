@@ -564,7 +564,7 @@ button.addEventListener('click', function(){
 
 })
 
-// Function to display the  weather on html document
+// Function to display the weather
 function showData(weather){
     temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
     humidity.innerText=`${weather.main.humidity}% Humidity`
@@ -744,7 +744,7 @@ button.addEventListener('click', function(){
 
 })
 
-// Function to display the  weather on html document
+// Function to display the weather
 function showData(weather){
     temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
     humidity.innerText=`${weather.main.humidity}% Humidity`
