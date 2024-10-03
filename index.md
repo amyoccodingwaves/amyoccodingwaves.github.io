@@ -222,62 +222,7 @@ The cool HTML stuff we are going to utilise here are a div section where we will
 
 Take a moment to think about apps on your phone that have some of these elements.
 
-### Before we move onto CSS, add the following to the HTML panel on your local JSFiddle
-
-Note the elements we have explained above. 
-
-
-```html
-<html>
-
-<head>
-  <!-- LINK TO CSS-->
-  <link rel="stylesheet" href="./api.css">
-
-  <!-- LINK TO FONT AWESOME IN ORDER TO DISPLAY SEARCH ICON-->
-  <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-
-  <!-- LINK TO GOOGLE FONTS, FONT BRICOLAGE GROTESQUE -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
-
-  <title>Coding Workshop Weather Application</title>
-</head>
-
-<body>
- <!-- LINK TO JAVASCRIPT FILE -->
- <script src="./api.js"></script>
-
- <div class="container">
-    
-   <div class="showWeather">
-     <h2>WHATS THE WEATHER LIKE?</h2>
-   </div>    
-
-   <div class="input">
-     <input type="text " class="inputValue" placeholder="Enter the Location">
-     <button class="button"><i class="fas fa-search"></i></button>
-   </div>
-
-   <div class="showWeather">
-     <h2 class="temperature">----°C</h2>
-     <p class="humidity">---</p>
-     <h3 class="windSpeed">---</h3>
-     <p class="description">---</p>
-     <img class="icon" />
-     
-   </div>
-
- </div>
- 
-</body>
-
-</html>
-```
+- - - -
 
 If you wish to learn more about HTML, check out https://www.w3schools.com/html
 
@@ -309,82 +254,6 @@ Observe the curly brackets, semi-colons, more indentation and US-English when sp
 ### Try it yourself
 * Try another font on line 2
 * Lookup another background HEX color code from the Color Pickere here: https://htmlcolorcodes.com/
-
-
-### Before we move onto Javascript, add the following to the CSS panel on your local JSFiddle
-```css
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-image: url('https://plus.unsplash.com/premium_photo-1680339680481-edd39aa0a521?q=80&w=3328&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    max-width: 450px;
-    margin: 1em;
-    padding: 2em;
-    border-radius: 24px;
-    background: rgb(234 234 234);
-    background: #000000d0;
-    color: white;
-}
-
-.input > input {
-    border: none;
-    outline: none;
-    padding: 0.3rem;
-    border-radius: 18px;
-    color: rgb(255 255 255);
-    background: #7c7c7c2b;
-    font-family: 'Bricolage+Grotesque', sans-serif;
-}
-
-button.button {
-    border: none;
-    width: 29px;
-    padding: 6px;
-    border-radius: 20px;
-    background: #7c7c7c2b;
-    color: white;
-    font-family: 'Bricolage+Grotesque', sans-serif;
-    transition: (.5s);
-}
-
-button.button:focus{
-    outline:none;
-}
-
-button.button:hover{
-    border: 1px solid rgb(122, 112, 112) 
-}
-
-.displayTitle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Bricolage+Grotesque', sans-serif;
-}
-
-.showWeather{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Bricolage+Grotesque', sans-serif;
-}
-```
-
 
 
 
@@ -540,44 +409,7 @@ The fetch() method starts the process of fetching a resource from a server (in o
 
 Understand what promise objects are all about, asynchronous operations etc. is beyond the scope of today's workshop but if you are interested to learn more, check out https://www.w3schools.com/js/js_promise.asp 
 
-To finalise the javascript piece of the project...
-```javascript
-// ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
-var button = document.querySelector('.button')
-var inputvalue = document.querySelector('.inputValue')
-var nameVal = document.querySelector('.name');
-var temperature = document.querySelector('.temperature');
-var humidity = document.querySelector('.humidity');
-var windSpeed = document.querySelector('.windSpeed');
-var description = document.querySelector('.description');
-var icon = document.querySelector('.icon');
-//var img = document.querySelector('.img');
 
-
-// ADDING EVENT LISTENER TO SEARCH BUTTON  
-button.addEventListener('click', function(){
-
-    // Fetching data from open weather API
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=01d5af53849e7b901e9afd60639538b8`)
-    .then(response => response.json())
-    .then(showData)
-    .catch(err => alert('Incorrect location')); 
-
-})
-
-// Function to display the weather
-function showData(weather){
-    temperature.innerText=`${weather.main.temp}°C`//text between curly brackets as per API
-    humidity.innerText=`${weather.main.humidity}% Humidity`
-    windSpeed.innerText=`${weather.wind.speed} Wind flow speed`
-    description.innerText=`Description: ${weather.weather[0].main}`
-    icon.src=`https://openweathermap.org/img/wn/${weather.weather[0].icon}.png`
-}
-
-    
-
-    
-```
  - - - -
 
 ### What is an API you ask?  
