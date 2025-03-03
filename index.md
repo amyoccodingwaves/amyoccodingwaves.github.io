@@ -6,7 +6,7 @@ layout: default
 
 This guide is designed for you to follow along as we step through todays workshop. 
 
-You have a hard copy where you can take notes. Code snippets are available via this webpage as we code along together.
+Code snippets are available via this webpage as we code along together.
 
 
 
