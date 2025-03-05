@@ -267,6 +267,64 @@ So lets do this!
  - - - -
 
 
+# Bootstrap
+
+Bootstrap is a powerful CSS framework that simplifies web design with pre-styled components, flexible layouts, and a responsive grid system. It enables developers to create visually appealing, mobile-friendly websites effortlessly. Using a system of containers, rows, and columns, Bootstrap ensures seamless content alignment. Built on Flexbox, Bootstrap optimizes spacing and structure, making it a go-to choice for modern, responsive web development.
+
+### How to Setup Bootstrap?
+
+Go to https://getbootstrap.com/ navigate to the 'Include via CDN' section, copy the <link> tag, and paste it inside the <head> section of your HTML file. The <link> tag is also pasted below:
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+So your <head> section should look something like this:
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-  QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Coding Workshop Weather Application</title>
+</head>
+
+### Style a button using a Bootstrap class
+
+Add the class "btn btn-primary" to the button element on your html page. 
+
+  <button class="btn btn-primary">Click me!</button>
+
+### Create a container with rows and columns using Bootstrap classes
+
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
+
+Find out more about Bootstrap containers, rows and columns here https://getbootstrap.com/docs/5.3/layout/columns/
+
+### Create a card using Bootstrap classes
+
+<div class="card" style="width: 18rem;">
+  <img src="https://cdn.creatureandcoagency.com/uploads/2015/01/Koals-Facts-2.jpg" class="card-img-top" alt="koala">
+  <div class="card-body">
+    <h5 class="card-title">Koala</h5>
+    <p class="card-text">Koalas are found in the eucalyptus forests of eastern Australia. They have grey fur with a cream-coloured chest, and strong, clawed feet, perfect for living in the branches of trees!</p>
+    <a href="https://www.natgeokids.com/ie/discover/animals/general-animals/ten-facts-about-koalas/" class="btn btn-primary">Click for more facts</a>
+  </div>
+</div>
+
+Find out more about Bootstrap cards here https://getbootstrap.com/docs/5.3/components/card/#about
+
+
+ - - - -
+
+
 # JAVASCRIPT
 
 Bringing our focus to the bottom left hand panel of our JSFiddle, our javascript will go here. 
