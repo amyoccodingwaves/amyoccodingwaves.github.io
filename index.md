@@ -431,7 +431,9 @@ JavaScript is a language that allows you to implement features on web pages. Whe
 ## Let's learn Javascript 
 
 ### var
-  
+
+CODE ALONG
+
 ```javascript
  var x = 4;
 ```
@@ -441,11 +443,24 @@ A variable is a container for storing information.
 * Then we add an equal sign to assign a value (in this example 10) to the variable we have just declared.
 * Then, we place a semicolon to end the declaration.
 
-If you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
+In our project we are going to be utilising a number of variables. The containers that we need for storing the weather information (temperature, wind speed, humidity, the weather icon, the weather description) that we are planning to call using the API.
 
+So, for example, a variable we might call in the context of this weather application could be something like:
+
+
+CODE ALONG
+
+```javascript
+var temperature = 4;
+var windSpeed = 10;
+```
+
+We will be utilising these variables later on in our javascript file.  It is important to get a good understanding of what a variable is.  If you continue to work with javascript in the future you will observe other types of variables such as const and let, but for the purposes of this project we are only using the variable var.
+
+If you wish to learn more see: https://www.w3schools.com/js/js_variables.asp
  - - - -
 
-### Difference between functions and methods
+### Let's learn about functions and methods
 
 Understanding the difference between functions and methods in programming in general is good thing to know. We are going to take a closer look using javascript. 
 
@@ -454,6 +469,9 @@ Understanding the difference between functions and methods in programming in gen
 A function is a block of code that is reusable - this block performs a particular task. They can take input arguements and return output values.
 
 A function example:
+
+CODE ALONG
+
 ```javascript
 function add(x, y) {
   return x + y;
@@ -461,11 +479,24 @@ function add(x, y) {
 ```
 Here a function takes two parameters and returns their sum.
 
+Here a function takes two parameters and returns their sum.
+
+CODE ALONG
+
+```javascript
+function showData(temperature, windSpeed) {
+   Return temperature + windSpeed;
+}
+```
+
 ### method
 
 A method are functions that are called on objects and can change or update an object properties.
 
 A method example:
+
+CODE ALONG
+
 ```javascript
 var workshop = "coding";
 var workshopUpperCase = workshop.toUpperCase();
@@ -475,8 +506,40 @@ Here a method is called on a string object to convert the string (coding) to upp
 To understand objects in javascript further, see: https://www.w3schools.com/js/js_objects.asp
 
 
-### document.getElementById() and document.querySelector() 
-Two of the most commonly used functions to retrieve elements from a webpage are querySelector() and getElementById().
+### Let's learn about Strings
+
+### String
+
+*What is a String? 
+Typically A JavaScript String is a sequence of characters, typically used to represent text.
+The word coding is an example of a string in the code we converted to uppercase above.
+
+### Let's learn about the javascript methods we are using in our Weather App 
+
+### document.getElementById() method
+
+Introducing: document.getElementById()
+
+* document.getElementById() is a JavaScript method
+* It is used to interact with the HTML document
+* It allows us to access an HTML element so we can manipulate it with javascripte
+* It allows us to access an HTML element by its id attribute from the DOM (Document Object Model)
+
+Note: while the method, document.getElementById(), is part of JavaScript, it directly affects and works with HTML elements in a webpage. We will see how this works in our Weather App.
+
+### DOM  (Document Object Model)
+*What is a DOM (Document Object Model)?
+A DOM is a bridge between the webpage and programming languages that can change and/or read the content.  It allows developers to create dynamic, interactive pages that handle user input events, update events etc.
+
+To learn more see: https://www.w3schools.com/js/js_htmldom.asp
+
+### document.getElementById() method
+
+Introducing: document.getElementById()
+
+...
+
+Note that document.getElementById() and document.querySelector() are two of the most commonly used functions to retrieve elements from a webpage.
 
 The main difference between these two functions is the way they select elements. getElementById() works with ID attributes, and querySelector() works with any CSS selector. 
 
