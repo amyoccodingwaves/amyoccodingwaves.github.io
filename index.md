@@ -157,10 +157,10 @@ In our project below, this script tag will link the html file with the javascrip
 
 
 Notes: 
-* <!DOCTYPE html> is not a HTML tag, it only declares the document type (informing the browser that the document type).
-* The <html> is always at the beginning of html content and </html> is always at the end. So, basically the entire content of any website will be found between these two tags.
-* The <head> is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
-* The <body> contains everything that is displayed on the web page.
+* ```<!DOCTYPE html>``` is not a HTML tag, it only declares the document type (informing the browser that the document type).
+* The ```<html>``` is always at the beginning of html content and ```</html>``` is always at the end. So, basically the entire content of any website will be found between these two tags.
+* The ```<head>``` is an element that contains meta information about the document but note, is not displayed on the screen (the page configuration details).
+* The ```<body>``` contains everything that is displayed on the web page.
 * The title element is within the head element and this text will appear in the title of your browser.
 * The link element is used for connecting your webpage to various resources such as CSS files (for styling) and JavaScript files (for added functionality). This practice is essential for creating dynamic, interactive, and well-designed websites.
 
