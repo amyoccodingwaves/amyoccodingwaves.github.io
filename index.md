@@ -185,6 +185,44 @@ We are using the head and body elements, and as explained above, we populate the
 
 Once you have this replicated in your HTML panel on JSFiddle, click 'Run' on the top right hand corner of the sandbox and observe the Result Panel in the bottom right hand corner.
 
+### Another simple HTML page
+
+Here is an example of another simple HTML page. Copy and paste this into the HTML panel in your JSFiddle sandbox and give your page a new title.
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<h2>My First Subheading</h2>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+```
+
+### Let's add a button 
+```
+  <button class="btn btn-primary">Click me!</button>
+```
+
+### Let's add a link to an external website 
+```
+ <a href="https://www.natgeokids.com/ie/discover/animals/general-animals/ten-facts-about-koalas/">
+  Learn More about koalas</a>
+```
+
+### Let's add an image
+```
+  <img src="https://cdn.creatureandcoagency.com/uploads/2015/01/Koals-Facts-2.jpg" alt="koala">
+```
+
+If you have come this far why not try and add a link to your image (in other words when you click your image it should bring you to the external website.)
+
 ### Try it yourself
 * Play with the content of the header and run the application again.
 * Change the comments, delete a line, change the header size, play around with the code and click Run to see what happens.
@@ -262,6 +300,44 @@ Observe the curly brackets, semi-colons, more indentation and US-English when sp
 Add the code snippet above to the CSS panel in JSFiddle and observe the changes in the Result Panel after clicking 'Run'.
 
 So lets do this!
+
+### Sample CSS file to style the body, h1, h2 and p elements on your html page
+
+Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbox, click 'run' and see what happens.
+
+```
+ body{
+   font-family: 'verdana', sans-serif;
+   background-color: #eeB2ee;
+   color: #E0FFFF;
+   text-align: center;
+ }
+ 
+ h1{
+   font-family: copperplate;
+   font-size: 60px;
+   background-color: #C71585;
+   color: #ffd1fc; 
+   border-radius: 30px;
+   }
+   
+ h2{
+     font-family: copperplate;
+     font-size: 50px;
+     background-color: #87CEEB;
+     color: #663399; 
+     border-radius: 30px;
+     }
+    
+ p{
+     font-family: papayawhip;
+     font-size: 30px;
+     background-color: #663399;
+     color: #ffd1fc;
+     border-radius: 30px;
+ }
+
+```
 
 
  - - - -
