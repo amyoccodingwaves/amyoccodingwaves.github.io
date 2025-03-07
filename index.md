@@ -527,23 +527,22 @@ Introducing: document.getElementById()
 
 Note: while the method, document.getElementById(), is part of JavaScript, it directly affects and works with HTML elements in a webpage. We will see how this works in our Weather App.
 
-### DOM  (Document Object Model)
-*What is a DOM (Document Object Model)?
-A DOM is a bridge between the webpage and programming languages that can change and/or read the content.  It allows developers to create dynamic, interactive pages that handle user input events, update events etc.
-
-To learn more see: https://www.w3schools.com/js/js_htmldom.asp
-
-### document.getElementById() method
-
-Introducing: document.getElementById()
-
-...
-
-Note that document.getElementById() and document.querySelector() are two of the most commonly used functions to retrieve elements from a webpage.
-
-The main difference between these two functions is the way they select elements. getElementById() works with ID attributes, and querySelector() works with any CSS selector. 
-
-### document.getElementById()
+### document.getElementById() CODE ALONG 1
+Create this html:
+```html
+<body>
+ <!-- LINK TO JAVASCRIPT FILE -->
+ <script src="./api.js"></script>
+    <!-- This is the HTML element we'll modify -->
+    <p id="myElement">This text will turn red!</p>
+</body>
+```
+Then create this javascript:
+```javascript
+ let element = document.getElementById('myElement');
+ element.style.color = 'blue'; // Change the text color to red
+```
+### document.getElementById() CODE ALONG 2
 In the example below, we create a variable called x, another called y and a third called z, and assign them values.
 ```javascript
 var x = 4;
@@ -565,11 +564,68 @@ In order to display this value, we need to add the following to the HTML panel o
 </html>
 ```
 
-For more information on HTML DOM elements see: https://www.w3schools.com/jsref/dom_obj_all.asp
+### document.getElementById() CODE ALONG 3
+
+In the example below, we create a variable called x, another called y and a third called z, and assign them values.
+```javascript
+var x = 4;
+var y = 8;
+var z = x + y;
+document.getElementById("demo").innerHTML = 
+"The value of z is: "+ z;
+```
+We are using what is known as a HTML DOM element here to change the HTML content of an element and identify it with a unique id known as,in our example, demo (_id="demo"_). 
+
+The getElementById() part of document.getElementById() is a method.  This method returns an element with a specified value.  The getElementById() method returns null if the element does not exist. The getElementById() method is one of the most common methods in the HTML DOM. It is used almost every time you want to read or edit an HTML element.
+
+In order to display this value, we need to add the following to the HTML panel on JSFiddle. We "output" the value inside an HTML paragraph with id="demo".
+```html
+<html>
+<body>
+  <p id="demo"></p>
+</body>
+</html>
+```
+
+### DOM (Document Object Model)
+*What is a DOM (Document Object Model)?
+A DOM is a bridge between the webpage and programming languages that can change and/or read the content.  It allows developers to create dynamic, interactive pages that handle user input events, update events etc.
+
+To learn more see: 
+https://www.w3schools.com/js/js_htmldom.asp
+https://www.w3schools.com/jsref/dom_obj_all.asp
+
+### document.querySelector() method
+
+Introducing: document.getElementById()
+
+* document.querySelector() method is JavaScript
+* document.querySelector()is part of the DOM API (Document Object Model API), which as we said above, allows JavaScript to interact with and manipulate HTML documents
+* The querySelector() method is used to select the first element within the document that matches a specified CSS selector
+* A selector is A string containing one or more CSS selectors (class, id, tag, etc.)
+* A selector returns the first element that matches the selector, or null if no element matches
+
+To learn more about the document.querySelector, see: https://www.w3schools.com/Jsref/met_document_queryselector.asp
+...
+
+Note that document.getElementById() and document.querySelector() are two of the most commonly used functions to retrieve elements from a webpage.
+
+The main difference between these two functions is the way they select elements. getElementById() works with ID attributes, and querySelector() works with any CSS selector. 
+
+### CSS selector
+*What is a CSS selector?
+
+* A CSS selector identifies HTML elements
+* CSS selectors are used to select one or more HTML elements on the page based on different attributes like tag name, class, id, attributes, or relationships between elements
+* Once a CSS selector targets an element, you can apply styling rules to it, such as changing the color, layout, or size
+
+To learn more see: https://www.w3schools.com/cssref/css_selectors.php
 
 
 ### document.querySelector
 In order to access the components we declared in our HTML file (temp, humidity, wind, and desc), so as we can manipulate them, we need to add functionality in our javascript file.  Here is what that looks like:
+
+### document.querySelector() CODE ALONG 1
 ```javascript
 // ACCESSING ALL THE HTML COMPONENTS REQUIRED TO PERFORM ACTIONS ON.
 var button = document.querySelector('.button')
