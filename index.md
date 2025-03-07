@@ -273,25 +273,32 @@ Bootstrap is a powerful CSS framework that simplifies web design with pre-styled
 
 ### How to Setup Bootstrap?
 
-Go to https://getbootstrap.com/ navigate to the 'Include via CDN' section, copy the <link> tag, and paste it inside the <head> section of your HTML file. The <link> tag is also pasted below:
+Go to https://getbootstrap.com/ navigate to the 'Include via CDN' section, copy the <link>, and paste it inside the <head> section of your HTML file. The <link> is also pasted below:
 
+```
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+```
 
 So your <head> section should look something like this:
 
+```
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-  QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Coding Workshop Weather Application</title>
 </head>
+```
 
 ### Style a button using a Bootstrap class
 
 Add the class "btn btn-primary" to the button element on your html page. 
 
+```
   <button class="btn btn-primary">Click me!</button>
+```
 
 ### Create a container with rows and columns using Bootstrap classes
 
+```
 <div class="container text-center">
   <div class="row">
     <div class="col">
@@ -305,11 +312,13 @@ Add the class "btn btn-primary" to the button element on your html page.
     </div>
   </div>
 </div>
+```
 
-Find out more about Bootstrap containers, rows and columns here https://getbootstrap.com/docs/5.3/layout/columns/
+Find out more about Bootstrap containers, rows and columns here: https://getbootstrap.com/docs/5.3/layout/columns/
 
 ### Create a card using Bootstrap classes
 
+```
 <div class="card" style="width: 18rem;">
   <img src="https://cdn.creatureandcoagency.com/uploads/2015/01/Koals-Facts-2.jpg" class="card-img-top" alt="koala">
   <div class="card-body">
@@ -318,8 +327,9 @@ Find out more about Bootstrap containers, rows and columns here https://getboots
     <a href="https://www.natgeokids.com/ie/discover/animals/general-animals/ten-facts-about-koalas/" class="btn btn-primary">Click for more facts</a>
   </div>
 </div>
+```
 
-Find out more about Bootstrap cards here https://getbootstrap.com/docs/5.3/components/card/#about
+Find out more about Bootstrap cards here: https://getbootstrap.com/docs/5.3/components/card/#about 
 
 
  - - - -
