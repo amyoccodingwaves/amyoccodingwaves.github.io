@@ -303,7 +303,7 @@ So lets do this!
 
 ### Sample CSS file to style the body, h1, h2 and p elements on your html page
 
-Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbox, click 'run' and see what happens.
+Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbox, click 'Run' and see what happens.
 
 ```
  body{
@@ -311,7 +311,7 @@ Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbo
    background-color: #eeB2ee;
    color: #E0FFFF;
    text-align: center;
- }
+}
  
  h1{
    font-family: copperplate;
@@ -319,7 +319,7 @@ Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbo
    background-color: #C71585;
    color: #ffd1fc; 
    border-radius: 30px;
-   }
+}
    
  h2{
      font-family: copperplate;
@@ -327,7 +327,7 @@ Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbo
      background-color: #87CEEB;
      color: #663399; 
      border-radius: 30px;
-     }
+}
     
  p{
      font-family: papayawhip;
@@ -335,7 +335,7 @@ Copy and paste the following CSS file into the CSS panel in your JSFiddle sandbo
      background-color: #663399;
      color: #ffd1fc;
      border-radius: 30px;
- }
+}
 
 ```
 
